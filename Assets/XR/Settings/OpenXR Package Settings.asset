@@ -317,32 +317,54 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -6496930137603640914}
-  - {fileID: 4715026109290581667}
-  - {fileID: -535046966774162213}
-  - {fileID: 106078599309609322}
-  - {fileID: 9008314309640047658}
-  - {fileID: -691727628651709939}
-  - {fileID: 412331488658628863}
-  - {fileID: 1535915543654783745}
+  - {fileID: -7101974767656342078}
   - {fileID: -4168197860891323495}
+  - {fileID: -143408303167436202}
+  - {fileID: 1535915543654783745}
+  - {fileID: 5710258374263075440}
+  - {fileID: 9008314309640047658}
+  - {fileID: 412331488658628863}
   - {fileID: 1860937245654155497}
+  - {fileID: 5150512614560901498}
+  - {fileID: -7735512026997430372}
+  - {fileID: -4123831647082267330}
+  - {fileID: 2528756276949455553}
+  - {fileID: 1733665590354325849}
   - {fileID: -9013299048944053018}
   - {fileID: 3139667924464890947}
-  - {fileID: 8411994225202835190}
-  - {fileID: -7735512026997430372}
-  - {fileID: 5710258374263075440}
-  - {fileID: -4099383903159017898}
-  - {fileID: 1733665590354325849}
-  - {fileID: 2528756276949455553}
-  - {fileID: 1210054104932751231}
-  - {fileID: 650489365130919114}
-  - {fileID: 5150512614560901498}
-  - {fileID: -143408303167436202}
+  - {fileID: 4715026109290581667}
   - {fileID: -4183258577708643864}
-  - {fileID: -7101974767656342078}
+  - {fileID: -535046966774162213}
+  - {fileID: -4099383903159017898}
+  - {fileID: 1210054104932751231}
+  - {fileID: -6496930137603640914}
+  - {fileID: 8411994225202835190}
+  - {fileID: 650489365130919114}
   - {fileID: 5754492503875571472}
-  - {fileID: -4123831647082267330}
+  - {fileID: -691727628651709939}
+  - {fileID: 106078599309609322}
+  m_renderMode: 1
+  m_autoColorSubmissionMode: 1
+  m_colorSubmissionModes:
+    m_List: 00000000
+  m_depthSubmissionMode: 0
+  m_spacewarpMotionVectorTextureFormat: 0
+  m_optimizeBufferDiscards: 0
+  m_symmetricProjection: 0
+--- !u!114 &-5391768534937729820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
+  m_Name: WebGL
+  m_EditorClassIdentifier: 
+  features:
+  - {fileID: -1092971267645256087}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
@@ -667,6 +689,26 @@ MonoBehaviour:
   extensionStrings:
   - XR_KHR_binding_modification
   - XR_EXT_dpad_binding
+--- !u!114 &-1092971267645256087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b213d3e3c7f3109449eb46a4c8ee42f0, type: 3}
+  m_Name: XrPerformanceSettingsFeature WebGL
+  m_EditorClassIdentifier: 
+  m_enabled: 0
+  nameUi: XR Performance Settings
+  version: 1.0.0
+  featureIdInternal: com.unity.openxr.feature.extension.performance_settings
+  openxrExtensionStrings: XR_EXT_performance_settings
+  company: Unity
+  priority: 0
+  required: 0
 --- !u!114 &-886590862169903048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -870,11 +912,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f0ebc320a151d3408ea1e9fce54d40e, type: 3}
   m_Name: OpenXR Package Settings
   m_EditorClassIdentifier: 
-  Keys: 01000000070000000e000000
+  Keys: 01000000070000000e0000000d000000
   Values:
   - {fileID: -6141811045215893815}
   - {fileID: 2898765352144802905}
   - {fileID: -564577253988530745}
+  - {fileID: -5391768534937729820}
 --- !u!114 &106078599309609322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1194,26 +1237,26 @@ MonoBehaviour:
   m_Name: Android
   m_EditorClassIdentifier: 
   features:
-  - {fileID: -5124446470463654071}
-  - {fileID: -88062131159283522}
-  - {fileID: -8035661542695182733}
-  - {fileID: -8976167938144200215}
-  - {fileID: 4335976082932843854}
-  - {fileID: 3999946247813611007}
-  - {fileID: -6538565085189231555}
-  - {fileID: 1776707328784683909}
-  - {fileID: -6998989037277816908}
-  - {fileID: -8653137847583731051}
-  - {fileID: 2444008329450753794}
-  - {fileID: -700757021598366024}
-  - {fileID: 6010371583772813966}
-  - {fileID: 5083929263721975390}
-  - {fileID: -9219630243841894787}
-  - {fileID: -1772748047810368669}
-  - {fileID: -7548083290912010365}
   - {fileID: 4342302750244299857}
-  - {fileID: 1573045293435770022}
+  - {fileID: -6538565085189231555}
+  - {fileID: -1772748047810368669}
+  - {fileID: 3999946247813611007}
+  - {fileID: -8653137847583731051}
+  - {fileID: -8976167938144200215}
+  - {fileID: -6998989037277816908}
   - {fileID: -4273652234899792424}
+  - {fileID: 4335976082932843854}
+  - {fileID: 6010371583772813966}
+  - {fileID: -700757021598366024}
+  - {fileID: 1776707328784683909}
+  - {fileID: -7548083290912010365}
+  - {fileID: -8035661542695182733}
+  - {fileID: -88062131159283522}
+  - {fileID: 2444008329450753794}
+  - {fileID: 5083929263721975390}
+  - {fileID: -5124446470463654071}
+  - {fileID: -9219630243841894787}
+  - {fileID: 1573045293435770022}
   m_renderMode: 1
   m_autoColorSubmissionMode: 1
   m_colorSubmissionModes:
