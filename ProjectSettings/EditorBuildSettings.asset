@@ -5,4 +5,11 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes: []
+<<<<<<< Updated upstream
   m_configObjects: {}
+=======
+  m_configObjects:
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 1b47e1a59c17bdc498f9a4edd7a8d513, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 10915ada1e05e3a42b999de927cc5ed9, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6432ee4c58ea82f4eae8e94f593b8ea4, type: 2}
+>>>>>>> Stashed changes
