@@ -3,23 +3,39 @@ using UnityEngine;
 using UnityEngine.UI;
 using Unity.Sentis;
 using System.Collections;
-using TMPro; // Required for TextMeshPro
+using TMPro; 
 
 public class YOLOHoloLens : MonoBehaviour
 {
+    [System.Serializable]
+    public struct DetectionMapping {
+        public string labelInFile;       
+        public GameObject modelObject;   
+        public GameObject nameLabelText; 
+    }
+
     [Header("Model Settings")]
     public ModelAsset yoloModel;
-    public string outputName = "output0"; 
+    public string outputName = "output0";
 
     [Header("UI References")]
     public RawImage displayImage; 
     public RectTransform boxContainer; 
     public GameObject boxPrefab; 
     public TextAsset classesFile; 
-    public TMP_Text statusText; // Updated to TMP_Text
+    public TMP_Text statusText; 
+    
+    [Header("Sequence UI")]
+    public GameObject instructionCanvas; 
+    public GameObject scanDisplayCanvas; 
+    public TMP_Text countdownText;
+
+    [Header("Detection Mapping")]
+    public List<DetectionMapping> mappings;
 
     [Header("Settings")]
-    [Range(0, 1)] public float scoreThreshold = 0.3f; 
+    [Tooltip("Increase this to 0.5 or 0.6 to stop phantom detections!")]
+    [Range(0, 1)] public float scoreThreshold = 0.5f; 
     public int inputWidth = 640;
     public int inputHeight = 640;
     public bool flipY = true; 
@@ -45,18 +61,25 @@ public class YOLOHoloLens : MonoBehaviour
         if (classesFile != null) {
             string[] lines = classesFile.text.Split('\n');
             foreach (var line in lines) {
-                if (!string.IsNullOrWhiteSpace(line)) classNames.Add(line.Trim());
+                if (!string.IsNullOrWhiteSpace(line)) classNames.Add(line.Trim().ToLower());
             }
         }
 
         if (WebCamTexture.devices.Length > 0) {
             webcamTexture = new WebCamTexture(640, 480);
             webcamTexture.Play();
-            if (displayImage != null) displayImage.texture = webcamTexture;
+            
+            // FORCE CAMERA VISIBILITY
+            if (displayImage != null) {
+                displayImage.texture = webcamTexture;
+                displayImage.color = Color.white; 
+            }
         }
 
         renderTexture = new RenderTexture(inputWidth, inputHeight, 0, RenderTextureFormat.ARGB32);
         
+        if (instructionCanvas != null) instructionCanvas.SetActive(false);
+        if (scanDisplayCanvas != null) scanDisplayCanvas.SetActive(false);
         if (statusText != null) statusText.text = "System Ready";
     }
 
@@ -64,7 +87,6 @@ public class YOLOHoloLens : MonoBehaviour
         if (!isProcessing) StartCoroutine(RunInferenceRoutine());
     }
 
-    // Optional: Clear boxes manually
     public void ClearBoxes() {
         foreach (var b in activeBoxes) Destroy(b);
         activeBoxes.Clear();
@@ -74,24 +96,45 @@ public class YOLOHoloLens : MonoBehaviour
     private IEnumerator RunInferenceRoutine() {
         isProcessing = true;
         
-        if (statusText != null) statusText.text = "Scanning...";
+        if (instructionCanvas != null) instructionCanvas.SetActive(true);
+        if (scanDisplayCanvas != null) scanDisplayCanvas.SetActive(false);
+        if (statusText != null) statusText.text = "Please look at the parts to be scanned";
+
+        for (int i = 3; i > 0; i--) {
+            if (countdownText != null) countdownText.text = i.ToString();
+            yield return new WaitForSeconds(1f);
+        }
+
+        if (instructionCanvas != null) instructionCanvas.SetActive(false);
+        if (scanDisplayCanvas != null) scanDisplayCanvas.SetActive(true);
+        if (countdownText != null) countdownText.text = "Scanning...";
+
+        yield return new WaitForEndOfFrame();
 
         Graphics.Blit(webcamTexture, renderTexture);
         using Tensor<float> inputTensor = TextureConverter.ToTensor(renderTexture, inputWidth, inputHeight, 3);
         worker.Schedule(inputTensor);
 
+        yield return null; 
+
         var output = worker.PeekOutput(outputName) as Tensor<float>;
         using var outputCPU = output.ReadbackAndClone(); 
         
         List<Detection> detections = ParseDetections(outputCPU);
+        
         UpdateUI(detections);
+        ActivateMappedObjects(detections);
 
         if (statusText != null) {
             statusText.text = detections.Count > 0 ? $"Found {detections.Count} objects" : "No objects detected";
         }
 
+        yield return new WaitForSeconds(5f);
+
+        ClearBoxes();
+        if (scanDisplayCanvas != null) scanDisplayCanvas.SetActive(false);
+
         isProcessing = false;
-        yield return null;
     }
 
     List<Detection> ParseDetections(Tensor<float> output) {
@@ -122,9 +165,7 @@ public class YOLOHoloLens : MonoBehaviour
     }
 
     void UpdateUI(List<Detection> detections) {
-        foreach (var b in activeBoxes) Destroy(b);
-        activeBoxes.Clear();
-
+        ClearBoxes();
         float cx = boxContainer.rect.width;
         float cy = boxContainer.rect.height;
 
@@ -147,16 +188,36 @@ public class YOLOHoloLens : MonoBehaviour
             rt.anchoredPosition = new Vector2(x, y);
             rt.sizeDelta = new Vector2(w, h);
 
-            // UPDATED FOR TMP
             TMP_Text t = go.GetComponentInChildren<TMP_Text>();
-            if (t != null) {
-                string name = (det.classIndex < classNames.Count) ? classNames[det.classIndex] : $"ID {det.classIndex}";
-                t.text = $"{name} ({det.score:P0})";
+            if (t != null && det.classIndex < classNames.Count) {
+                // Formats it exactly like: Tool (95%)
+                t.text = $"{classNames[det.classIndex]} ({det.score * 100f:F0}%)";
             }
         }
     }
 
-    public void Quit() => Application.Quit();
+    void ActivateMappedObjects(List<Detection> detections) {
+        foreach (var det in detections) {
+            if (det.classIndex >= classNames.Count) continue;
+            string detectedLabel = classNames[det.classIndex];
+
+            foreach (var map in mappings) {
+                if (map.labelInFile.Trim().ToLower() == detectedLabel) {
+                    if (map.modelObject != null) ForceActivate(map.modelObject);
+                    if (map.nameLabelText != null) ForceActivate(map.nameLabelText);
+                }
+            }
+        }
+    }
+
+    // THE FIX: This forces the assigned object AND its disabled parents to turn on.
+    void ForceActivate(GameObject obj) {
+        Transform current = obj.transform;
+        while (current != null) {
+            current.gameObject.SetActive(true);
+            current = current.parent;
+        }
+    }
 
     void OnDisable() {
         worker?.Dispose();
