@@ -191,7 +191,7 @@ public class YOLOHoloLens : MonoBehaviour
             TMP_Text t = go.GetComponentInChildren<TMP_Text>();
             if (t != null && det.classIndex < classNames.Count) {
                 // Formats it exactly like: Tool (95%)
-                t.text = $"{classNames[det.classIndex]} ({det.score * 100f:F0}%)";
+                t.text = $"{classNames[det.classIndex]}";
             }
         }
     }
