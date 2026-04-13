@@ -19,6 +19,14 @@
     </AllowedReferenceRelatedFileExtensions>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)NuGet.config">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)packages.config">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)Data\nativePlugins.txt">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
@@ -117,6 +125,14 @@
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.MixedReality.QR.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.MixedReality.QR.dll')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.MixedReality.QR.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.MixedReality.QR.pdb')">
+      <DeploymentContent>true</DeploymentContent>
+      <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
+    </None>
     <None Include="$(MSBuildThisFileDirectory)UnityOpenXRHands.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXRHands.dll')">
       <DeploymentContent>true</DeploymentContent>
       <ExcludeFromResourceIndex>true</ExcludeFromResourceIndex>
@@ -184,6 +200,9 @@
     <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.dll" DestinationFiles="$(MSBuildThisFileDirectory)openxr_loader.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.dll')" />
     <Delete Files="$(MSBuildThisFileDirectory)openxr_loader.pdb" Condition="Exists('$(MSBuildThisFileDirectory)openxr_loader.pdb')" />
     <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.pdb" DestinationFiles="$(MSBuildThisFileDirectory)openxr_loader.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\openxr_loader.pdb')" />
+    <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.MixedReality.QR.dll" DestinationFiles="$(MSBuildThisFileDirectory)Microsoft.MixedReality.QR.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.MixedReality.QR.dll')" />
+    <Delete Files="$(MSBuildThisFileDirectory)Microsoft.MixedReality.QR.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Microsoft.MixedReality.QR.pdb')" />
+    <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.MixedReality.QR.pdb" DestinationFiles="$(MSBuildThisFileDirectory)Microsoft.MixedReality.QR.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\Microsoft.MixedReality.QR.pdb')" />
     <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXRHands.dll" DestinationFiles="$(MSBuildThisFileDirectory)UnityOpenXRHands.dll" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXRHands.dll')" />
     <Delete Files="$(MSBuildThisFileDirectory)UnityOpenXRHands.pdb" Condition="Exists('$(MSBuildThisFileDirectory)UnityOpenXRHands.pdb')" />
     <Copy SourceFiles="$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXRHands.pdb" DestinationFiles="$(MSBuildThisFileDirectory)UnityOpenXRHands.pdb" Condition="Exists('$(MSBuildThisFileDirectory)Plugins\$(PlatformShortName)\UnityOpenXRHands.pdb')" />

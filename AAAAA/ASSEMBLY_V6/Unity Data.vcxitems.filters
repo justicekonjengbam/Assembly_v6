@@ -25,6 +25,8 @@
     <Filter Include="Data\UnitySubsystems\UnityOpenXR">
       <UniqueIdentifier>{a7549d11-124b-f2ae-5281-de9f5d89a5de}</UniqueIdentifier>
     </Filter>
+    <None Include="$(MSBuildThisFileDirectory)NuGet.config" />
+    <None Include="$(MSBuildThisFileDirectory)packages.config" />
     <None Include="$(MSBuildThisFileDirectory)Data\nativePlugins.txt">
       <Filter>Data</Filter>
     </None>
@@ -91,6 +93,7 @@
     <None Include="$(MSBuildThisFileDirectory)Data\Resources\unity default resources">
       <Filter>Data\Resources</Filter>
     </None>
+    <None Include="$(MSBuildThisFileDirectory)Microsoft.MixedReality.QR.dll" />
     <None Include="$(MSBuildThisFileDirectory)lib_burst_generated.dll" />
   </ItemGroup>
   <ItemGroup>
