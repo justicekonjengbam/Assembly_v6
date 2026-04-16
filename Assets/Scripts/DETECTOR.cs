@@ -49,6 +49,11 @@ public class DETECTOR : MonoBehaviour
     private List<GameObject> activeBoxes = new List<GameObject>();
     private Coroutine scanSequenceCoroutine;
 
+    // --- RESET LOGIC STORAGE ---
+    private HashSet<GameObject> detectedInThisSession = new HashSet<GameObject>();
+    private Dictionary<GameObject, Pose> originalPoses = new Dictionary<GameObject, Pose>();
+    private Dictionary<GameObject, Vector3> originalScales = new Dictionary<GameObject, Vector3>();
+
     private struct Detection {
         public int classIndex;
         public float score;
@@ -70,7 +75,6 @@ public class DETECTOR : MonoBehaviour
         if (WebCamTexture.devices.Length > 0) {
             webcamTexture = new WebCamTexture(640, 480);
             webcamTexture.Play();
-            
             if (displayImage != null) {
                 displayImage.texture = webcamTexture;
                 displayImage.color = Color.white; 
@@ -78,16 +82,40 @@ public class DETECTOR : MonoBehaviour
         }
 
         renderTexture = new RenderTexture(inputWidth, inputHeight, 0, RenderTextureFormat.ARGB32);
-        
         if (retryMenu != null) retryMenu.SetActive(false);
     }
 
-    // --- MRTK3 SLIDER ---
+    // --- FUNCTION: RESET POSITION & SCALE ---
+    public void ResetScaleAndPosition() {
+        foreach (var obj in detectedInThisSession) {
+            if (obj != null && originalPoses.ContainsKey(obj)) {
+                obj.transform.position = originalPoses[obj].position;
+                obj.transform.rotation = originalPoses[obj].rotation;
+                obj.transform.localScale = originalScales[obj];
+                
+                Rigidbody rb = obj.GetComponent<Rigidbody>();
+                if (rb != null) {
+                    rb.velocity = Vector3.zero;
+                    rb.angularVelocity = Vector3.zero;
+                }
+            }
+        }
+    }
+
+    // --- FUNCTION: REMOVE OBJECTS ---
+    public void RemoveAllObjects() {
+        foreach (var obj in detectedInThisSession) {
+            if (obj != null) obj.SetActive(false);
+        }
+        detectedInThisSession.Clear();
+        originalPoses.Clear();
+        originalScales.Clear();
+    }
+
     public void OnSliderUpdated(SliderEventData eventData) {
         scoreThreshold = eventData.NewValue;
     }
 
-    // --- SCAN SEQUENCE ---
     public void StartScanSequence() {
         if (retryMenu != null) retryMenu.SetActive(false);
         if (scanSequenceCoroutine != null) StopCoroutine(scanSequenceCoroutine);
@@ -96,11 +124,10 @@ public class DETECTOR : MonoBehaviour
 
     private IEnumerator TimedScanRoutine() {
         float timer = 0;
-
         while (timer < scanDuration) {
             timer += Time.deltaTime;
             if (statusText != null) 
-                statusText.text = $"Scanning... {Mathf.Ceil(scanDuration - timer)}s";
+                statusText.text = $"Scanning YOLO... {Mathf.Ceil(scanDuration - timer)}s";
 
             Graphics.Blit(webcamTexture, renderTexture);
             using Tensor<float> inputTensor = TextureConverter.ToTensor(renderTexture, inputWidth, inputHeight, 3);
@@ -112,8 +139,7 @@ public class DETECTOR : MonoBehaviour
             using var outputCPU = output.ReadbackAndClone(); 
             
             List<Detection> detections = ParseDetections(outputCPU);
-            
-            UpdateUI(detections); // Reverted to original logic
+            UpdateUI(detections); 
             ActivateMappedObjects(detections);
 
             yield return new WaitForSeconds(0.05f);
@@ -121,11 +147,15 @@ public class DETECTOR : MonoBehaviour
 
         if (statusText != null) statusText.text = "Scan Complete.";
         ClearBoxes();
+
+        // Release all detected objects for grabbing
+        foreach (var obj in detectedInThisSession) {
+            ReleaseToWorld(obj);
+        }
         
         if (retryMenu != null) retryMenu.SetActive(true);
     }
 
-    // --- REVERTED BOUNDING BOX LOGIC ---
     void UpdateUI(List<Detection> detections) {
         ClearBoxes();
         float cx = boxContainer.rect.width;
@@ -134,7 +164,6 @@ public class DETECTOR : MonoBehaviour
         foreach (var det in detections) {
             GameObject go = Instantiate(boxPrefab, boxContainer);
             activeBoxes.Add(go);
-
             RectTransform rt = go.GetComponent<RectTransform>();
             rt.anchorMin = Vector2.zero;
             rt.anchorMax = Vector2.zero;
@@ -144,7 +173,6 @@ public class DETECTOR : MonoBehaviour
             float h = det.rect.height * cy;
             float x = det.rect.x * cx;
             float y = det.rect.y * cy;
-
             if (flipY) y = cy - y; 
 
             rt.anchoredPosition = new Vector2(x, y);
@@ -155,6 +183,74 @@ public class DETECTOR : MonoBehaviour
                 t.text = $"{classNames[det.classIndex]}";
             }
         }
+    }
+
+    void ActivateMappedObjects(List<Detection> detections) {
+        foreach (var det in detections) {
+            if (det.classIndex >= classNames.Count) continue;
+            string detectedLabel = classNames[det.classIndex];
+
+            foreach (var map in mappings) {
+                if (map.labelInFile.Trim().ToLower() == detectedLabel) {
+                    if (map.modelObject != null) PlaceObjectIn3D(map.modelObject, det);
+                }
+            }
+        }
+    }
+
+    void PlaceObjectIn3D(GameObject obj, Detection det) {
+        float centerX = det.rect.x + (det.rect.width / 2f);
+        float centerY = det.rect.y + (det.rect.height / 2f);
+        if (flipY) centerY = 1.0f - centerY;
+
+        Ray ray = Camera.main.ViewportPointToRay(new Vector3(centerX, centerY, 0));
+
+        if (Physics.Raycast(ray, out RaycastHit hit, maxRaycastDistance, spatialMeshLayer)) {
+            obj.transform.position = hit.point;
+            obj.transform.up = hit.normal; 
+
+            // Save original pose and scale for the Reset function
+            if (!originalPoses.ContainsKey(obj)) {
+                originalPoses.Add(obj, new Pose(hit.point, obj.transform.rotation));
+                originalScales.Add(obj, obj.transform.localScale);
+                detectedInThisSession.Add(obj);
+            }
+        } else {
+            Vector3 floatPos = ray.origin + (ray.direction * 1.5f);
+            obj.transform.position = floatPos;
+            if (!originalPoses.ContainsKey(obj)) {
+                originalPoses.Add(obj, new Pose(floatPos, obj.transform.rotation));
+                originalScales.Add(obj, obj.transform.localScale);
+                detectedInThisSession.Add(obj);
+            }
+        }
+        obj.SetActive(true);
+    }
+
+    private void ReleaseToWorld(GameObject obj) {
+        obj.transform.SetParent(null, true);
+        Rigidbody rb = obj.GetComponent<Rigidbody>();
+        if (rb != null) {
+            rb.isKinematic = true;
+            rb.useGravity = false;
+        }
+
+        // Standard MRTK reboot to ensure grabbable
+        MonoBehaviour[] scripts = obj.GetComponents<MonoBehaviour>();
+        foreach (var s in scripts) {
+            if (s.GetType().Name.Contains("ObjectManipulator")) {
+                s.enabled = false;
+                s.enabled = true;
+            }
+        }
+
+        Collider col = obj.GetComponent<Collider>();
+        if (col != null) { col.enabled = false; col.enabled = true; }
+    }
+
+    public void ClearBoxes() {
+        foreach (var b in activeBoxes) Destroy(b);
+        activeBoxes.Clear();
     }
 
     List<Detection> ParseDetections(Tensor<float> output) {
@@ -182,40 +278,6 @@ public class DETECTOR : MonoBehaviour
             }
         }
         return detections;
-    }
-
-    void ActivateMappedObjects(List<Detection> detections) {
-        foreach (var det in detections) {
-            if (det.classIndex >= classNames.Count) continue;
-            string detectedLabel = classNames[det.classIndex];
-
-            foreach (var map in mappings) {
-                if (map.labelInFile.Trim().ToLower() == detectedLabel) {
-                    if (map.modelObject != null) PlaceObjectIn3D(map.modelObject, det);
-                }
-            }
-        }
-    }
-
-    void PlaceObjectIn3D(GameObject obj, Detection det) {
-        float centerX = det.rect.x + (det.rect.width / 2f);
-        float centerY = det.rect.y + (det.rect.height / 2f);
-        if (flipY) centerY = 1.0f - centerY;
-
-        Ray ray = Camera.main.ViewportPointToRay(new Vector3(centerX, centerY, 0));
-
-        if (Physics.Raycast(ray, out RaycastHit hit, maxRaycastDistance, spatialMeshLayer)) {
-            obj.transform.position = hit.point;
-            obj.transform.up = hit.normal; 
-        } else {
-            obj.transform.position = ray.origin + (ray.direction * 1.5f);
-        }
-        obj.SetActive(true);
-    }
-
-    public void ClearBoxes() {
-        foreach (var b in activeBoxes) Destroy(b);
-        activeBoxes.Clear();
     }
 
     void OnDisable() {
