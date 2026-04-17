@@ -735,10 +735,7 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 3206878994445634880, guid: a69170382c049914c9866f5914e0adee, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8290906168139694780, guid: a69170382c049914c9866f5914e0adee, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a69170382c049914c9866f5914e0adee, type: 3}
 --- !u!4 &212953922 stripped
 Transform:
@@ -3139,10 +3136,7 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 3206878994445634880, guid: a69170382c049914c9866f5914e0adee, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8290906168139694780, guid: a69170382c049914c9866f5914e0adee, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a69170382c049914c9866f5914e0adee, type: 3}
 --- !u!4 &940642679 stripped
 Transform:
@@ -3568,26 +3562,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 974974e36c91dda4d855157ec3bdb7bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  assembler: {fileID: 198754634}
-  markerManager: {fileID: 1197509877}
   mappings:
   - qrText: Big screw
-    partPrefabs:
-    - {fileID: 6042611010395837557}
-    - {fileID: 7636895697600803969}
-    - {fileID: 2853491513778548847}
+    modelObject: {fileID: 6042611010395837557}
   - qrText: Helical Spring
-    partPrefabs:
-    - {fileID: 4428723944618688559}
+    modelObject: {fileID: 4428723944618688559}
   - qrText: Small screw
-    partPrefabs:
-    - {fileID: 1995152926623226200}
-    - {fileID: 5317589609395067455}
-    - {fileID: 1510540219488862536}
-    - {fileID: 649978379340471142}
+    modelObject: {fileID: 5317589609395067455}
+  markerManager: {fileID: 1197509877}
   scanDuration: 5
-  verticalGap: 0.01
-  isScanning: 0
+  verticalOffset: 0.1
 --- !u!114 &1197509877
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5217,7 +5201,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8716276222904833065, guid: a69170382c049914c9866f5914e0adee, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: StartScanning
+      value: StartScanSequence
       objectReference: {fileID: 0}
     - target: {fileID: 8716276222904833065, guid: a69170382c049914c9866f5914e0adee, type: 3}
       propertyPath: <OnClicked>k__BackingField.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName

@@ -13,7 +13,7 @@
 
 
 struct IList_1_tBD2FF04B5D888DBC1FA50FA6F9C28BE9ECD39663;
-struct IList_1_tCBDCA145FB88F52CFC8436326E7D71FC7BC9B9C0;
+struct IList_1_tD8BF08224452C83F7522CE31361A3FC774BC0DCF;
 struct IList_1_tD27D8B7ADCEC5D64ADFBFA86505E4FE8D79AE399;
 struct IList_1_t6B415B48B2A95168332A0DB42DBAAC376F084814;
 struct IList_1_t4FF27B15EC020BB5456FDB97A059B7760B9F60C1;
@@ -106,7 +106,7 @@ struct ReadOnlyCollection_1_tEF3BBC03C133322DD5180F0C011306F0CC592443  : public 
 	RuntimeObject* ___list;
 	RuntimeObject* ____syncRoot;
 };
-struct ReadOnlyCollection_1_tBB30A56CAAFCB3E3B3ACBCD9B777F05F38E92E07  : public RuntimeObject
+struct ReadOnlyCollection_1_t8A17A093584A50002A2BC1BD7240912C4DB999BC  : public RuntimeObject
 {
 	RuntimeObject* ___list;
 	RuntimeObject* ____syncRoot;
@@ -532,9 +532,9 @@ IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_ReadOnlyCollection_1
 	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) ReadOnlyCollection_1_tEF3BBC03C133322DD5180F0C011306F0CC592443_ComCallableWrapper(obj));
 }
 
-struct ReadOnlyCollection_1_tBB30A56CAAFCB3E3B3ACBCD9B777F05F38E92E07_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<ReadOnlyCollection_1_tBB30A56CAAFCB3E3B3ACBCD9B777F05F38E92E07_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C, IBindableVector_tAE2FC72291BFE4E2FE6FCE88670236BBA429833A
+struct ReadOnlyCollection_1_t8A17A093584A50002A2BC1BD7240912C4DB999BC_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<ReadOnlyCollection_1_t8A17A093584A50002A2BC1BD7240912C4DB999BC_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C, IBindableVector_tAE2FC72291BFE4E2FE6FCE88670236BBA429833A
 {
-	inline ReadOnlyCollection_1_tBB30A56CAAFCB3E3B3ACBCD9B777F05F38E92E07_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<ReadOnlyCollection_1_tBB30A56CAAFCB3E3B3ACBCD9B777F05F38E92E07_ComCallableWrapper>(obj) {}
+	inline ReadOnlyCollection_1_t8A17A093584A50002A2BC1BD7240912C4DB999BC_ComCallableWrapper(RuntimeObject* obj) : il2cpp::vm::CachedCCWBase<ReadOnlyCollection_1_t8A17A093584A50002A2BC1BD7240912C4DB999BC_ComCallableWrapper>(obj) {}
 
 	virtual il2cpp_hresult_t STDCALL QueryInterface(const Il2CppGuid& iid, void** object) IL2CPP_OVERRIDE
 	{
@@ -673,15 +673,15 @@ struct ReadOnlyCollection_1_tBB30A56CAAFCB3E3B3ACBCD9B777F05F38E92E07_ComCallabl
 	}
 };
 
-IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_ReadOnlyCollection_1_tBB30A56CAAFCB3E3B3ACBCD9B777F05F38E92E07(RuntimeObject* obj)
+IL2CPP_EXTERN_C Il2CppIUnknown* CreateComCallableWrapperFor_ReadOnlyCollection_1_t8A17A093584A50002A2BC1BD7240912C4DB999BC(RuntimeObject* obj)
 {
-	void* memory = il2cpp::utils::Memory::Malloc(sizeof(ReadOnlyCollection_1_tBB30A56CAAFCB3E3B3ACBCD9B777F05F38E92E07_ComCallableWrapper));
+	void* memory = il2cpp::utils::Memory::Malloc(sizeof(ReadOnlyCollection_1_t8A17A093584A50002A2BC1BD7240912C4DB999BC_ComCallableWrapper));
 	if (memory == NULL)
 	{
 		il2cpp_codegen_raise_out_of_memory_exception();
 	}
 
-	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) ReadOnlyCollection_1_tBB30A56CAAFCB3E3B3ACBCD9B777F05F38E92E07_ComCallableWrapper(obj));
+	return static_cast<Il2CppIManagedObjectHolder*>(new(memory) ReadOnlyCollection_1_t8A17A093584A50002A2BC1BD7240912C4DB999BC_ComCallableWrapper(obj));
 }
 
 struct ReadOnlyCollection_1_tB4D9A0CDCFB95FF39CF5E7E6C0BA76B3178ECBDF_ComCallableWrapper IL2CPP_FINAL : il2cpp::vm::CachedCCWBase<ReadOnlyCollection_1_tB4D9A0CDCFB95FF39CF5E7E6C0BA76B3178ECBDF_ComCallableWrapper>, IBindableIterable_t257967EF5CDA5DFD63615802571892212B01796C, IBindableVector_tAE2FC72291BFE4E2FE6FCE88670236BBA429833A

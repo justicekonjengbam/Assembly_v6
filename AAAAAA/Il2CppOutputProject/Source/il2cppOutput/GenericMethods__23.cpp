@@ -19825,7 +19825,7 @@ IL_0026:
 		return (bool)1;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeHelpers_IsReferenceOrContainsReferences_TisQRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_m9D3D6AF2B5A1B8AABA6708B161B1DF1F857C83F0_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool RuntimeHelpers_IsReferenceOrContainsReferences_TisQRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_mAA1B0173D095AAB12C706CF11730E70B5EEF7EB3_gshared (const RuntimeMethod* method) 
 {
 	if (!il2cpp_rgctx_is_initialized(method))
 	{

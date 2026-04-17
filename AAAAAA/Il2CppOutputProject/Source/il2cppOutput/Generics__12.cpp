@@ -26,7 +26,7 @@ struct ArraySortHelper_1_tF669363DF21E6813A90C78EEADF1821DC206B9FD;
 struct ArraySortHelper_1_t33FDE8BB325E449B14549082A7FE1FE425855645;
 struct ArraySortHelper_1_t05AEB000AEB2BDA208021EF16C8EDCD794031B29;
 struct ArraySortHelper_1_tD6BF644C392B9ABF6F4EA8CC6764E05B6A9D36D4;
-struct ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A;
+struct ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D;
 struct ArraySortHelper_1_t9DEB3C8468A804E766AA4719F1096F9B95233515;
 struct ArraySortHelper_1_t64263AAD5E6DE31996B72E8837C61B1F21014810;
 struct ArraySortHelper_1_t3F950B9797D68EE2D03C13A3C8F79EC4F396B8EC;
@@ -56,7 +56,7 @@ struct Comparer_1_t008656E7BE6A507DFE532A19750B740E061E6B6C;
 struct Comparer_1_tC2B347AC425ABF55D053FC64C97BBED09C20A9CD;
 struct Comparer_1_t916EE4ED27A9C9BE359110135C2F831364374C7A;
 struct Comparer_1_t84516C996CE624BFAF699BC390665FF27018EBF6;
-struct Comparer_1_tFF1BC8D44BA786D25CCB32363176EEDD9D8AC73D;
+struct Comparer_1_t93FA0D6DCA780C0E72F2337561443E332B5CCD0D;
 struct Comparer_1_tF9CAFB07F0BDE025AFCCD14D3B8D648A987038AF;
 struct Comparer_1_t57462BD3D8D4D76A988C73DCDFC665FFA8EFC603;
 struct Comparer_1_t54A6C5EE50489DEB0DCBD45815BEE9F8E683FC2F;
@@ -86,7 +86,7 @@ struct Comparison_1_tE9908313C7D3F5DEA5DB6BA23866378966DF9B75;
 struct Comparison_1_tAA6D008210EC29123D54520323CA25D1711808A6;
 struct Comparison_1_tBA8E62E1D99117B29F57BB6477E7B2CEDD1B5158;
 struct Comparison_1_tCDEF1D5EF6B73DB7076B3EB7780342ABEC7F49AE;
-struct Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C;
+struct Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22;
 struct Comparison_1_tA6E38F9B8A5E125EC6515F9679C2079C747A0149;
 struct Comparison_1_tEF46E57E1EA1EAD3E013A3E7CBF83ADA63BD074A;
 struct Comparison_1_t7E66F96E351A400BD8C6E0C1D2C03B9A5549DD9B;
@@ -116,7 +116,7 @@ struct IComparer_1_t2DC4C50DC12448714ACE633E6673DDE1EE0B6BB4;
 struct IComparer_1_tB226869B1E44872C8CD7C666F5F0BB7DE1473A75;
 struct IComparer_1_tFEC2309064BE096DA49D95D8636AEC29472F7434;
 struct IComparer_1_tBA201B1F10E92EE845C20ECCFF9D91CBD8D1BE6D;
-struct IComparer_1_t39138F279ADB07AC14452FD2453126FF517EA149;
+struct IComparer_1_tEA83826250B5AC3C4C3D35AF5D5CE48B44A95770;
 struct IComparer_1_t159FEB1B1070E2EE853CD70A3DAF125998EE03D3;
 struct IComparer_1_t72EFCF1355CDAC86EE18C7B9B7D790A022A76685;
 struct IComparer_1_tD4A85A46A558A862FE3D6743EC2F172A5F5016E6;
@@ -142,7 +142,6 @@ struct IComparer_1_t314FEB6FB11D322BA083FCF58FB97514B3ADA2D8;
 struct IComparer_1_tFAD3AE9FE3CE1FB3CBB781C55DC57C986D71521E;
 struct IComparer_1_t0860915FFC3292D231DDFCAB8C0C97D98F2A1990;
 struct IComparer_1_t4DB9C4AAFA2CE45B0F1E114E72C4E2429DF25939;
-struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
 struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
 struct List_1_t66ECB78C59D17DA730CE87022DD41F5781CAB6D4;
 struct List_1_t8A06DB5554CD76CE072807DE6EF4198109D84E53;
@@ -156,7 +155,7 @@ struct InputU5BU5D_t5259FC42F02A4E5953F0B8D1148D965524A11096;
 struct OutputU5BU5D_tAA0566FEDC8806CBEE22C29C9DE3A7FCAD4A2DF2;
 struct SortedColumnStateU5BU5D_tD76039072018E258494F81C8D50F35EAC97118E6;
 struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813;
-struct QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5;
+struct QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27;
 struct SingleRangeU5BU5D_t9F938F2249733D85C4F97842A125778D69A843D6;
 struct RenderNodeDataU5BU5D_t73A42A22EC1354DE8A25C10A2E408E1DA7C41B7E;
 struct AssemblyStepU5BU5D_t646A4D76D2670D76BB1E3C2F8DE76E0C737BD685;
@@ -230,7 +229,7 @@ struct InputU5BU5D_t5259FC42F02A4E5953F0B8D1148D965524A11096;
 struct OutputU5BU5D_tAA0566FEDC8806CBEE22C29C9DE3A7FCAD4A2DF2;
 struct SortedColumnStateU5BU5D_tD76039072018E258494F81C8D50F35EAC97118E6;
 struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813;
-struct QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5;
+struct QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27;
 struct SingleRangeU5BU5D_t9F938F2249733D85C4F97842A125778D69A843D6;
 struct RenderNodeDataU5BU5D_t73A42A22EC1354DE8A25C10A2E408E1DA7C41B7E;
 struct AssemblyStepU5BU5D_t646A4D76D2670D76BB1E3C2F8DE76E0C737BD685;
@@ -277,7 +276,7 @@ struct ArraySortHelper_1_t05AEB000AEB2BDA208021EF16C8EDCD794031B29  : public Run
 struct ArraySortHelper_1_tD6BF644C392B9ABF6F4EA8CC6764E05B6A9D36D4  : public RuntimeObject
 {
 };
-struct ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A  : public RuntimeObject
+struct ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D  : public RuntimeObject
 {
 };
 struct ArraySortHelper_1_t9DEB3C8468A804E766AA4719F1096F9B95233515  : public RuntimeObject
@@ -367,7 +366,7 @@ struct Comparer_1_t916EE4ED27A9C9BE359110135C2F831364374C7A  : public RuntimeObj
 struct Comparer_1_t84516C996CE624BFAF699BC390665FF27018EBF6  : public RuntimeObject
 {
 };
-struct Comparer_1_tFF1BC8D44BA786D25CCB32363176EEDD9D8AC73D  : public RuntimeObject
+struct Comparer_1_t93FA0D6DCA780C0E72F2337561443E332B5CCD0D  : public RuntimeObject
 {
 };
 struct Comparer_1_tF9CAFB07F0BDE025AFCCD14D3B8D648A987038AF  : public RuntimeObject
@@ -609,20 +608,20 @@ struct SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_marshaled_com
 	uint64_t ___actionId;
 	Il2CppChar* ___path;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 
 {
 	String_t* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_pinvoke
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_pinvoke
 {
 	char* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_com
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_com
 {
 	Il2CppChar* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
 struct SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC 
 {
@@ -1315,7 +1314,7 @@ struct Comparison_1_tBA8E62E1D99117B29F57BB6477E7B2CEDD1B5158  : public Multicas
 struct Comparison_1_tCDEF1D5EF6B73DB7076B3EB7780342ABEC7F49AE  : public MulticastDelegate_t
 {
 };
-struct Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C  : public MulticastDelegate_t
+struct Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22  : public MulticastDelegate_t
 {
 };
 struct Comparison_1_tA6E38F9B8A5E125EC6515F9679C2079C747A0149  : public MulticastDelegate_t
@@ -1529,9 +1528,9 @@ struct ArraySortHelper_1_tD6BF644C392B9ABF6F4EA8CC6764E05B6A9D36D4_StaticFields
 {
 	ArraySortHelper_1_tD6BF644C392B9ABF6F4EA8CC6764E05B6A9D36D4* ___s_defaultArraySortHelper;
 };
-struct ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A_StaticFields
+struct ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D_StaticFields
 {
-	ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A* ___s_defaultArraySortHelper;
+	ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D* ___s_defaultArraySortHelper;
 };
 struct ArraySortHelper_1_t9DEB3C8468A804E766AA4719F1096F9B95233515_StaticFields
 {
@@ -1649,9 +1648,9 @@ struct Comparer_1_t84516C996CE624BFAF699BC390665FF27018EBF6_StaticFields
 {
 	Comparer_1_t84516C996CE624BFAF699BC390665FF27018EBF6* ___defaultComparer;
 };
-struct Comparer_1_tFF1BC8D44BA786D25CCB32363176EEDD9D8AC73D_StaticFields
+struct Comparer_1_t93FA0D6DCA780C0E72F2337561443E332B5CCD0D_StaticFields
 {
-	Comparer_1_tFF1BC8D44BA786D25CCB32363176EEDD9D8AC73D* ___defaultComparer;
+	Comparer_1_t93FA0D6DCA780C0E72F2337561443E332B5CCD0D* ___defaultComparer;
 };
 struct Comparer_1_tF9CAFB07F0BDE025AFCCD14D3B8D648A987038AF_StaticFields
 {
@@ -1908,43 +1907,43 @@ struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813  : publ
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___path), (void*)NULL);
 	}
 };
-struct QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5  : public RuntimeArray
+struct QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27  : public RuntimeArray
 {
-	ALIGN_FIELD (8) QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 m_Items[1];
+	ALIGN_FIELD (8) QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 m_Items[1];
 
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 GetAt(il2cpp_array_size_t index) const
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 GetAt(il2cpp_array_size_t index) const
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items[index];
 	}
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257* GetAddressAt(il2cpp_array_size_t index)
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4* GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items + index;
 	}
-	inline void SetAt(il2cpp_array_size_t index, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 value)
+	inline void SetAt(il2cpp_array_size_t index, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 value)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___qrText), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___partPrefabs), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___modelObject), (void*)NULL);
 		#endif
 	}
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 GetAtUnchecked(il2cpp_array_size_t index) const
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 GetAtUnchecked(il2cpp_array_size_t index) const
 	{
 		return m_Items[index];
 	}
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4* GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
 		return m_Items + index;
 	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 value)
+	inline void SetAtUnchecked(il2cpp_array_size_t index, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___qrText), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___partPrefabs), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___modelObject), (void*)NULL);
 		#endif
 	}
 };
@@ -3068,19 +3067,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartiti
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Swap_m2B151834616ABF172D62703E49B418CE29465739_gshared (SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* ___0_a, int32_t ___1_i, int32_t ___2_j, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_DownHeap_mD4B5EF65E9F761B582CD8FDD5DF690E20CE827A1_gshared (SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* ___0_keys, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, Comparison_1_tCDEF1D5EF6B73DB7076B3EB7780342ABEC7F49AE* ___4_comparer, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1__ctor_mB9F610A2445BEF735D0F38DA9A345267DF2C58A8_gshared (ArraySortHelper_1_tD6BF644C392B9ABF6F4EA8CC6764E05B6A9D36D4* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_tFF1BC8D44BA786D25CCB32363176EEDD9D8AC73D* Comparer_1_get_Default_mF470638AD563B2E69FA25807173030829A709C1E_gshared (const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparison_1__ctor_m3E6BB5C717DA1052C561045CC1685B9F3544EF38_gshared (Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntrospectiveSort_mB17A7D3FF2BE04EB626C6F2907D345CE969C7D7D_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_left, int32_t ___2_length, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_InternalBinarySearch_mF9C37BF62320DB99E57C9C4ED5F4DB9DB6778455_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_array, int32_t ___1_index, int32_t ___2_length, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___3_value, RuntimeObject* ___4_comparer, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_gshared_inline (Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_x, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___1_y, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntroSort_m66A7665EAF9D6257F4F91E1ECEAC4CF96B01174B_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, int32_t ___3_depthLimit, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___4_comparer, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___1_comparer, int32_t ___2_a, int32_t ___3_b, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_InsertionSort_m5952A74BEF13D7E625B201AF193A5118A3580185_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Heapsort_mEC95696439BCF54A179788A828F315761E1C2626_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartition_m6C45F8F5137F137AFE9B14F2ED4C9513B06B1D7A_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Swap_m75AF6F2CEC2B29184B652528B550B26F38175D79_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_a, int32_t ___1_i, int32_t ___2_j, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_DownHeap_m0E7E6465E14E531D97FBDE8E9339CE0750EEEB58_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___4_comparer, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1__ctor_mF5545FD8491C9424FC131F76CE1D409561D7A607_gshared (ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_t93FA0D6DCA780C0E72F2337561443E332B5CCD0D* Comparer_1_get_Default_mAD8F7541A1573BD8F171E844FAC6C6501A35DDBA_gshared (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparison_1__ctor_mBD07CF93EF5160E7E4CD0DEC361A5550D2FFCEA2_gshared (Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntrospectiveSort_m5A86684BA0796E9CE44A6740E14DF610AAC0DDF3_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_left, int32_t ___2_length, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_InternalBinarySearch_mB10ABCCABA9E34ACF684BCA394206402B8AEB73C_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_array, int32_t ___1_index, int32_t ___2_length, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___3_value, RuntimeObject* ___4_comparer, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_gshared_inline (Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_x, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntroSort_mA38994B6A7238E794737C8EDA1DAF15B2DFF8B07_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, int32_t ___3_depthLimit, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___4_comparer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___1_comparer, int32_t ___2_a, int32_t ___3_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_InsertionSort_m5269A557DD3C7FEE6E7BA5BA3421A1C51EDFFD93_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Heapsort_mB311C3A79E177FF1509C96ACF1A42A6C9C72F9F6_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartition_mBA357A532F746CF47DE75CCB931D0C1F931F3D7E_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Swap_mDA5D85CAC786EA0156B2411C462BCBBB55CA23DF_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_a, int32_t ___1_i, int32_t ___2_j, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_DownHeap_m768B159C956F8C413BDAD5ADB86BF3217BB60E15_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___4_comparer, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1__ctor_m9333E0666A848804596C83ADFBFBD50ADFBCB21B_gshared (ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Comparer_1_tF9CAFB07F0BDE025AFCCD14D3B8D648A987038AF* Comparer_1_get_Default_m9001DD84D5D761F80A2AF437E7ED6120F3C2D25B_gshared (const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Comparison_1__ctor_m87AD2C32DA378C73426A1C97CA33B7CD1F3146C2_gshared (Comparison_1_tA6E38F9B8A5E125EC6515F9679C2079C747A0149* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntrospectiveSort_mF740B19717166C2589E68CA7650054E9ABF8EE44_gshared (SingleRangeU5BU5D_t9F938F2249733D85C4F97842A125778D69A843D6* ___0_keys, int32_t ___1_left, int32_t ___2_length, Comparison_1_tA6E38F9B8A5E125EC6515F9679C2079C747A0149* ___3_comparer, const RuntimeMethod* method) ;
@@ -3619,57 +3618,57 @@ inline void ArraySortHelper_1__ctor_mB9F610A2445BEF735D0F38DA9A345267DF2C58A8 (A
 {
 	((  void (*) (ArraySortHelper_1_tD6BF644C392B9ABF6F4EA8CC6764E05B6A9D36D4*, const RuntimeMethod*))ArraySortHelper_1__ctor_mB9F610A2445BEF735D0F38DA9A345267DF2C58A8_gshared)(__this, method);
 }
-inline Comparer_1_tFF1BC8D44BA786D25CCB32363176EEDD9D8AC73D* Comparer_1_get_Default_mF470638AD563B2E69FA25807173030829A709C1E (const RuntimeMethod* method)
+inline Comparer_1_t93FA0D6DCA780C0E72F2337561443E332B5CCD0D* Comparer_1_get_Default_mAD8F7541A1573BD8F171E844FAC6C6501A35DDBA (const RuntimeMethod* method)
 {
-	return ((  Comparer_1_tFF1BC8D44BA786D25CCB32363176EEDD9D8AC73D* (*) (const RuntimeMethod*))Comparer_1_get_Default_mF470638AD563B2E69FA25807173030829A709C1E_gshared)(method);
+	return ((  Comparer_1_t93FA0D6DCA780C0E72F2337561443E332B5CCD0D* (*) (const RuntimeMethod*))Comparer_1_get_Default_mAD8F7541A1573BD8F171E844FAC6C6501A35DDBA_gshared)(method);
 }
-inline void Comparison_1__ctor_m3E6BB5C717DA1052C561045CC1685B9F3544EF38 (Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
+inline void Comparison_1__ctor_mBD07CF93EF5160E7E4CD0DEC361A5550D2FFCEA2 (Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*, RuntimeObject*, intptr_t, const RuntimeMethod*))Comparison_1__ctor_m3E6BB5C717DA1052C561045CC1685B9F3544EF38_gshared)(__this, ___0_object, ___1_method, method);
+	((  void (*) (Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*, RuntimeObject*, intptr_t, const RuntimeMethod*))Comparison_1__ctor_mBD07CF93EF5160E7E4CD0DEC361A5550D2FFCEA2_gshared)(__this, ___0_object, ___1_method, method);
 }
-inline void ArraySortHelper_1_IntrospectiveSort_mB17A7D3FF2BE04EB626C6F2907D345CE969C7D7D (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_left, int32_t ___2_length, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method)
+inline void ArraySortHelper_1_IntrospectiveSort_m5A86684BA0796E9CE44A6740E14DF610AAC0DDF3 (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_left, int32_t ___2_length, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method)
 {
-	((  void (*) (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5*, int32_t, int32_t, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*, const RuntimeMethod*))ArraySortHelper_1_IntrospectiveSort_mB17A7D3FF2BE04EB626C6F2907D345CE969C7D7D_gshared)(___0_keys, ___1_left, ___2_length, ___3_comparer, method);
+	((  void (*) (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27*, int32_t, int32_t, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*, const RuntimeMethod*))ArraySortHelper_1_IntrospectiveSort_m5A86684BA0796E9CE44A6740E14DF610AAC0DDF3_gshared)(___0_keys, ___1_left, ___2_length, ___3_comparer, method);
 }
-inline int32_t ArraySortHelper_1_InternalBinarySearch_mF9C37BF62320DB99E57C9C4ED5F4DB9DB6778455 (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_array, int32_t ___1_index, int32_t ___2_length, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___3_value, RuntimeObject* ___4_comparer, const RuntimeMethod* method)
+inline int32_t ArraySortHelper_1_InternalBinarySearch_mB10ABCCABA9E34ACF684BCA394206402B8AEB73C (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_array, int32_t ___1_index, int32_t ___2_length, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___3_value, RuntimeObject* ___4_comparer, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5*, int32_t, int32_t, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, RuntimeObject*, const RuntimeMethod*))ArraySortHelper_1_InternalBinarySearch_mF9C37BF62320DB99E57C9C4ED5F4DB9DB6778455_gshared)(___0_array, ___1_index, ___2_length, ___3_value, ___4_comparer, method);
+	return ((  int32_t (*) (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27*, int32_t, int32_t, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, RuntimeObject*, const RuntimeMethod*))ArraySortHelper_1_InternalBinarySearch_mB10ABCCABA9E34ACF684BCA394206402B8AEB73C_gshared)(___0_array, ___1_index, ___2_length, ___3_value, ___4_comparer, method);
 }
-inline int32_t Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_inline (Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_x, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___1_y, const RuntimeMethod* method)
+inline int32_t Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_inline (Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_x, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___1_y, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, const RuntimeMethod*))Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_gshared_inline)(__this, ___0_x, ___1_y, method);
+	return ((  int32_t (*) (Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, const RuntimeMethod*))Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_gshared_inline)(__this, ___0_x, ___1_y, method);
 }
-inline void ArraySortHelper_1_IntroSort_m66A7665EAF9D6257F4F91E1ECEAC4CF96B01174B (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, int32_t ___3_depthLimit, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___4_comparer, const RuntimeMethod* method)
+inline void ArraySortHelper_1_IntroSort_mA38994B6A7238E794737C8EDA1DAF15B2DFF8B07 (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, int32_t ___3_depthLimit, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___4_comparer, const RuntimeMethod* method)
 {
-	((  void (*) (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5*, int32_t, int32_t, int32_t, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*, const RuntimeMethod*))ArraySortHelper_1_IntroSort_m66A7665EAF9D6257F4F91E1ECEAC4CF96B01174B_gshared)(___0_keys, ___1_lo, ___2_hi, ___3_depthLimit, ___4_comparer, method);
+	((  void (*) (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27*, int32_t, int32_t, int32_t, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*, const RuntimeMethod*))ArraySortHelper_1_IntroSort_mA38994B6A7238E794737C8EDA1DAF15B2DFF8B07_gshared)(___0_keys, ___1_lo, ___2_hi, ___3_depthLimit, ___4_comparer, method);
 }
-inline void ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___1_comparer, int32_t ___2_a, int32_t ___3_b, const RuntimeMethod* method)
+inline void ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953 (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___1_comparer, int32_t ___2_a, int32_t ___3_b, const RuntimeMethod* method)
 {
-	((  void (*) (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5*, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*, int32_t, int32_t, const RuntimeMethod*))ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C_gshared)(___0_keys, ___1_comparer, ___2_a, ___3_b, method);
+	((  void (*) (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27*, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*, int32_t, int32_t, const RuntimeMethod*))ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953_gshared)(___0_keys, ___1_comparer, ___2_a, ___3_b, method);
 }
-inline void ArraySortHelper_1_InsertionSort_m5952A74BEF13D7E625B201AF193A5118A3580185 (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method)
+inline void ArraySortHelper_1_InsertionSort_m5269A557DD3C7FEE6E7BA5BA3421A1C51EDFFD93 (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method)
 {
-	((  void (*) (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5*, int32_t, int32_t, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*, const RuntimeMethod*))ArraySortHelper_1_InsertionSort_m5952A74BEF13D7E625B201AF193A5118A3580185_gshared)(___0_keys, ___1_lo, ___2_hi, ___3_comparer, method);
+	((  void (*) (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27*, int32_t, int32_t, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*, const RuntimeMethod*))ArraySortHelper_1_InsertionSort_m5269A557DD3C7FEE6E7BA5BA3421A1C51EDFFD93_gshared)(___0_keys, ___1_lo, ___2_hi, ___3_comparer, method);
 }
-inline void ArraySortHelper_1_Heapsort_mEC95696439BCF54A179788A828F315761E1C2626 (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method)
+inline void ArraySortHelper_1_Heapsort_mB311C3A79E177FF1509C96ACF1A42A6C9C72F9F6 (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method)
 {
-	((  void (*) (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5*, int32_t, int32_t, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*, const RuntimeMethod*))ArraySortHelper_1_Heapsort_mEC95696439BCF54A179788A828F315761E1C2626_gshared)(___0_keys, ___1_lo, ___2_hi, ___3_comparer, method);
+	((  void (*) (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27*, int32_t, int32_t, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*, const RuntimeMethod*))ArraySortHelper_1_Heapsort_mB311C3A79E177FF1509C96ACF1A42A6C9C72F9F6_gshared)(___0_keys, ___1_lo, ___2_hi, ___3_comparer, method);
 }
-inline int32_t ArraySortHelper_1_PickPivotAndPartition_m6C45F8F5137F137AFE9B14F2ED4C9513B06B1D7A (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method)
+inline int32_t ArraySortHelper_1_PickPivotAndPartition_mBA357A532F746CF47DE75CCB931D0C1F931F3D7E (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method)
 {
-	return ((  int32_t (*) (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5*, int32_t, int32_t, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*, const RuntimeMethod*))ArraySortHelper_1_PickPivotAndPartition_m6C45F8F5137F137AFE9B14F2ED4C9513B06B1D7A_gshared)(___0_keys, ___1_lo, ___2_hi, ___3_comparer, method);
+	return ((  int32_t (*) (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27*, int32_t, int32_t, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*, const RuntimeMethod*))ArraySortHelper_1_PickPivotAndPartition_mBA357A532F746CF47DE75CCB931D0C1F931F3D7E_gshared)(___0_keys, ___1_lo, ___2_hi, ___3_comparer, method);
 }
-inline void ArraySortHelper_1_Swap_m75AF6F2CEC2B29184B652528B550B26F38175D79 (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_a, int32_t ___1_i, int32_t ___2_j, const RuntimeMethod* method)
+inline void ArraySortHelper_1_Swap_mDA5D85CAC786EA0156B2411C462BCBBB55CA23DF (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_a, int32_t ___1_i, int32_t ___2_j, const RuntimeMethod* method)
 {
-	((  void (*) (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5*, int32_t, int32_t, const RuntimeMethod*))ArraySortHelper_1_Swap_m75AF6F2CEC2B29184B652528B550B26F38175D79_gshared)(___0_a, ___1_i, ___2_j, method);
+	((  void (*) (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27*, int32_t, int32_t, const RuntimeMethod*))ArraySortHelper_1_Swap_mDA5D85CAC786EA0156B2411C462BCBBB55CA23DF_gshared)(___0_a, ___1_i, ___2_j, method);
 }
-inline void ArraySortHelper_1_DownHeap_m0E7E6465E14E531D97FBDE8E9339CE0750EEEB58 (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___4_comparer, const RuntimeMethod* method)
+inline void ArraySortHelper_1_DownHeap_m768B159C956F8C413BDAD5ADB86BF3217BB60E15 (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___4_comparer, const RuntimeMethod* method)
 {
-	((  void (*) (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5*, int32_t, int32_t, int32_t, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*, const RuntimeMethod*))ArraySortHelper_1_DownHeap_m0E7E6465E14E531D97FBDE8E9339CE0750EEEB58_gshared)(___0_keys, ___1_i, ___2_n, ___3_lo, ___4_comparer, method);
+	((  void (*) (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27*, int32_t, int32_t, int32_t, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*, const RuntimeMethod*))ArraySortHelper_1_DownHeap_m768B159C956F8C413BDAD5ADB86BF3217BB60E15_gshared)(___0_keys, ___1_i, ___2_n, ___3_lo, ___4_comparer, method);
 }
-inline void ArraySortHelper_1__ctor_mF5545FD8491C9424FC131F76CE1D409561D7A607 (ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A* __this, const RuntimeMethod* method)
+inline void ArraySortHelper_1__ctor_m9333E0666A848804596C83ADFBFBD50ADFBCB21B (ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D* __this, const RuntimeMethod* method)
 {
-	((  void (*) (ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A*, const RuntimeMethod*))ArraySortHelper_1__ctor_mF5545FD8491C9424FC131F76CE1D409561D7A607_gshared)(__this, method);
+	((  void (*) (ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D*, const RuntimeMethod*))ArraySortHelper_1__ctor_m9333E0666A848804596C83ADFBFBD50ADFBCB21B_gshared)(__this, method);
 }
 inline Comparer_1_tF9CAFB07F0BDE025AFCCD14D3B8D648A987038AF* Comparer_1_get_Default_m9001DD84D5D761F80A2AF437E7ED6120F3C2D25B (const RuntimeMethod* method)
 {
@@ -8932,7 +8931,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1__cctor_m846251BFDF2EF7
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_m0472AE1A88B9539483547A1D32D0968A6057DD06_gshared (ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A* __this, QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_index, int32_t ___2_length, RuntimeObject* ___3_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_mEE8BB95FD12ACD4729E690D97F325D709F2793DF_gshared (ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D* __this, QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_index, int32_t ___2_length, RuntimeObject* ___3_comparer, const RuntimeMethod* method) 
 {
 	Exception_t* V_0 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
@@ -8946,22 +8945,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_m0472AE1A88B95394
 			}
 		}
 		{
-			Comparer_1_tFF1BC8D44BA786D25CCB32363176EEDD9D8AC73D* L_1;
-			L_1 = Comparer_1_get_Default_mF470638AD563B2E69FA25807173030829A709C1E(il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+			Comparer_1_t93FA0D6DCA780C0E72F2337561443E332B5CCD0D* L_1;
+			L_1 = Comparer_1_get_Default_mAD8F7541A1573BD8F171E844FAC6C6501A35DDBA(il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 			___3_comparer = (RuntimeObject*)L_1;
 		}
 
 IL_000b_1:
 		{
-			QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_2 = ___0_keys;
+			QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_2 = ___0_keys;
 			int32_t L_3 = ___1_index;
 			int32_t L_4 = ___2_length;
 			RuntimeObject* L_5 = ___3_comparer;
 			RuntimeObject* L_6 = L_5;
-			Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_7 = (Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 6));
-			Comparison_1__ctor_m3E6BB5C717DA1052C561045CC1685B9F3544EF38(L_7, (RuntimeObject*)L_6, (intptr_t)((void*)GetInterfaceMethodInfo(L_6, 0, il2cpp_rgctx_data(method->klass->rgctx_data, 0))), il2cpp_rgctx_method(method->klass->rgctx_data, 7));
+			Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_7 = (Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 6));
+			Comparison_1__ctor_mBD07CF93EF5160E7E4CD0DEC361A5550D2FFCEA2(L_7, (RuntimeObject*)L_6, (intptr_t)((void*)GetInterfaceMethodInfo(L_6, 0, il2cpp_rgctx_data(method->klass->rgctx_data, 0))), il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 			il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 9));
-			ArraySortHelper_1_IntrospectiveSort_mB17A7D3FF2BE04EB626C6F2907D345CE969C7D7D(L_2, L_3, L_4, L_7, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
+			ArraySortHelper_1_IntrospectiveSort_m5A86684BA0796E9CE44A6740E14DF610AAC0DDF3(L_2, L_3, L_4, L_7, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
 			goto IL_003d;
 		}
 	}
@@ -9016,7 +9015,7 @@ IL_003d:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_BinarySearch_m9BCD4F24C3E7EC07A2553E0AB6FC78F11D101DC8_gshared (ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A* __this, QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_array, int32_t ___1_index, int32_t ___2_length, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___3_value, RuntimeObject* ___4_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_BinarySearch_m3E230AD18E057404DAA05678B04E4B9A34C2A214_gshared (ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D* __this, QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_array, int32_t ___1_index, int32_t ___2_length, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___3_value, RuntimeObject* ___4_comparer, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	Exception_t* V_1 = NULL;
@@ -9031,21 +9030,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_BinarySearch_m9BCD4
 			}
 		}
 		{
-			Comparer_1_tFF1BC8D44BA786D25CCB32363176EEDD9D8AC73D* L_1;
-			L_1 = Comparer_1_get_Default_mF470638AD563B2E69FA25807173030829A709C1E(il2cpp_rgctx_method(method->klass->rgctx_data, 1));
+			Comparer_1_t93FA0D6DCA780C0E72F2337561443E332B5CCD0D* L_1;
+			L_1 = Comparer_1_get_Default_mAD8F7541A1573BD8F171E844FAC6C6501A35DDBA(il2cpp_rgctx_method(method->klass->rgctx_data, 1));
 			___4_comparer = (RuntimeObject*)L_1;
 		}
 
 IL_000b_1:
 		{
-			QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_2 = ___0_array;
+			QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_2 = ___0_array;
 			int32_t L_3 = ___1_index;
 			int32_t L_4 = ___2_length;
-			QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_5 = ___3_value;
+			QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_5 = ___3_value;
 			RuntimeObject* L_6 = ___4_comparer;
 			il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 9));
 			int32_t L_7;
-			L_7 = ArraySortHelper_1_InternalBinarySearch_mF9C37BF62320DB99E57C9C4ED5F4DB9DB6778455(L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
+			L_7 = ArraySortHelper_1_InternalBinarySearch_mB10ABCCABA9E34ACF684BCA394206402B8AEB73C(L_2, L_3, L_4, L_5, L_6, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 			V_0 = L_7;
 			goto IL_002a;
 		}
@@ -9088,18 +9087,18 @@ IL_002a:
 		return L_12;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_m16EB12490A89F07721E09570E486503007054C20_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_index, int32_t ___2_length, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_m07C81CC5FFFB611ED1D27533ABA24996848086CD_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_index, int32_t ___2_length, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method) 
 {
 	Exception_t* V_0 = NULL;
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	try
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_0 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_0 = ___0_keys;
 		int32_t L_1 = ___1_index;
 		int32_t L_2 = ___2_length;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_3 = ___3_comparer;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_3 = ___3_comparer;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_IntrospectiveSort_mB17A7D3FF2BE04EB626C6F2907D345CE969C7D7D(L_0, L_1, L_2, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
+		ArraySortHelper_1_IntrospectiveSort_m5A86684BA0796E9CE44A6740E14DF610AAC0DDF3(L_0, L_1, L_2, L_3, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 8));
 		goto IL_0024;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -9125,7 +9124,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Sort_m16EB12490A89F077
 CATCH_000b:
 	{
 		IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82* L_4 = ((IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82*)IL2CPP_GET_ACTIVE_EXCEPTION(IndexOutOfRangeException_t7ECB35264FB6CA8FAA516BD958F4B2ADC78E8A82*));;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_5 = ___3_comparer;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_5 = ___3_comparer;
 		IntrospectiveSortUtilities_ThrowOrIgnoreBadComparer_m119232371BEE9732FE70D22EE93B3818E577EFAF((RuntimeObject*)L_5, NULL);
 		IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
 		goto IL_0024;
@@ -9153,7 +9152,7 @@ IL_0024:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_InternalBinarySearch_mF9C37BF62320DB99E57C9C4ED5F4DB9DB6778455_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_array, int32_t ___1_index, int32_t ___2_length, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___3_value, RuntimeObject* ___4_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_InternalBinarySearch_mB10ABCCABA9E34ACF684BCA394206402B8AEB73C_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_array, int32_t ___1_index, int32_t ___2_length, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___3_value, RuntimeObject* ___4_comparer, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -9175,15 +9174,15 @@ IL_000a:
 		int32_t L_5 = V_0;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_3, ((int32_t)(((int32_t)il2cpp_codegen_subtract(L_4, L_5))>>1))));
 		RuntimeObject* L_6 = ___4_comparer;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_7 = ___0_array;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_7 = ___0_array;
 		int32_t L_8 = V_2;
 		NullCheck(L_7);
 		int32_t L_9 = L_8;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_11 = ___3_value;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_11 = ___3_value;
 		NullCheck(L_6);
 		int32_t L_12;
-		L_12 = InterfaceFuncInvoker2< int32_t, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0), L_6, L_10, L_11);
+		L_12 = InterfaceFuncInvoker2< int32_t, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 >::Invoke(0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 0), L_6, L_10, L_11);
 		V_3 = L_12;
 		int32_t L_13 = V_3;
 		if (L_13)
@@ -9230,9 +9229,9 @@ IL_0035:
 		return ((~L_20));
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___1_comparer, int32_t ___2_a, int32_t ___3_b, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___1_comparer, int32_t ___2_a, int32_t ___3_b, const RuntimeMethod* method) 
 {
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 V_0;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		int32_t L_0 = ___2_a;
@@ -9243,46 +9242,46 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_SwapIfGreater_mE42B5F8
 		}
 	}
 	{
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_2 = ___1_comparer;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_3 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_2 = ___1_comparer;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_3 = ___0_keys;
 		int32_t L_4 = ___2_a;
 		NullCheck(L_3);
 		int32_t L_5 = L_4;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_7 = ___0_keys;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_6 = (L_3)->GetAt(static_cast<il2cpp_array_size_t>(L_5));
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_7 = ___0_keys;
 		int32_t L_8 = ___3_b;
 		NullCheck(L_7);
 		int32_t L_9 = L_8;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
 		NullCheck(L_2);
 		int32_t L_11;
-		L_11 = Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_inline(L_2, L_6, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		L_11 = Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_inline(L_2, L_6, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		if ((((int32_t)L_11) <= ((int32_t)0)))
 		{
 			goto IL_0039;
 		}
 	}
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_12 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_12 = ___0_keys;
 		int32_t L_13 = ___2_a;
 		NullCheck(L_12);
 		int32_t L_14 = L_13;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_15 = (L_12)->GetAt(static_cast<il2cpp_array_size_t>(L_14));
 		V_0 = L_15;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_16 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_16 = ___0_keys;
 		int32_t L_17 = ___2_a;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_18 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_18 = ___0_keys;
 		int32_t L_19 = ___3_b;
 		NullCheck(L_18);
 		int32_t L_20 = L_19;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_21 = (L_18)->GetAt(static_cast<il2cpp_array_size_t>(L_20));
 		NullCheck(L_16);
-		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_17), (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257)L_21);
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_22 = ___0_keys;
+		(L_16)->SetAt(static_cast<il2cpp_array_size_t>(L_17), (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4)L_21);
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_22 = ___0_keys;
 		int32_t L_23 = ___3_b;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_24 = V_0;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_24 = V_0;
 		NullCheck(L_22);
-		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_23), (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257)L_24);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(L_23), (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4)L_24);
 	}
 
 IL_0039:
@@ -9290,9 +9289,9 @@ IL_0039:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Swap_m75AF6F2CEC2B29184B652528B550B26F38175D79_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_a, int32_t ___1_i, int32_t ___2_j, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Swap_mDA5D85CAC786EA0156B2411C462BCBBB55CA23DF_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_a, int32_t ___1_i, int32_t ___2_j, const RuntimeMethod* method) 
 {
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 V_0;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
 		int32_t L_0 = ___1_i;
@@ -9303,26 +9302,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Swap_m75AF6F2CEC2B2918
 		}
 	}
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_2 = ___0_a;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_2 = ___0_a;
 		int32_t L_3 = ___1_i;
 		NullCheck(L_2);
 		int32_t L_4 = L_3;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_0 = L_5;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_6 = ___0_a;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_6 = ___0_a;
 		int32_t L_7 = ___1_i;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_8 = ___0_a;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_8 = ___0_a;
 		int32_t L_9 = ___2_j;
 		NullCheck(L_8);
 		int32_t L_10 = L_9;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		NullCheck(L_6);
-		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257)L_11);
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_12 = ___0_a;
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4)L_11);
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_12 = ___0_a;
 		int32_t L_13 = ___2_j;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_14 = V_0;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_14 = V_0;
 		NullCheck(L_12);
-		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257)L_14);
+		(L_12)->SetAt(static_cast<il2cpp_array_size_t>(L_13), (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4)L_14);
 	}
 
 IL_0022:
@@ -9330,7 +9329,7 @@ IL_0022:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntrospectiveSort_mB17A7D3FF2BE04EB626C6F2907D345CE969C7D7D_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_left, int32_t ___2_length, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntrospectiveSort_m5A86684BA0796E9CE44A6740E14DF610AAC0DDF3_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_left, int32_t ___2_length, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0 = ___2_length;
@@ -9345,20 +9344,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntrospectiveSort_mB17
 
 IL_0005:
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_1 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_1 = ___0_keys;
 		int32_t L_2 = ___1_left;
 		int32_t L_3 = ___2_length;
 		int32_t L_4 = ___1_left;
 		int32_t L_5 = ___2_length;
 		int32_t L_6;
 		L_6 = IntrospectiveSortUtilities_FloorLog2PlusOne_m33AC60574EC2B80A3B7084361A3736D4CFE91F6D(L_5, NULL);
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_7 = ___3_comparer;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_7 = ___3_comparer;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_IntroSort_m66A7665EAF9D6257F4F91E1ECEAC4CF96B01174B(L_1, L_2, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_3, L_4)), 1)), ((int32_t)il2cpp_codegen_multiply(2, L_6)), L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		ArraySortHelper_1_IntroSort_mA38994B6A7238E794737C8EDA1DAF15B2DFF8B07(L_1, L_2, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_3, L_4)), 1)), ((int32_t)il2cpp_codegen_multiply(2, L_6)), L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntroSort_m66A7665EAF9D6257F4F91E1ECEAC4CF96B01174B_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, int32_t ___3_depthLimit, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___4_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_IntroSort_mA38994B6A7238E794737C8EDA1DAF15B2DFF8B07_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, int32_t ___3_depthLimit, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___4_comparer, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -9397,12 +9396,12 @@ IL_0015:
 		}
 	}
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_5 = ___0_keys;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_6 = ___4_comparer;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_5 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_6 = ___4_comparer;
 		int32_t L_7 = ___1_lo;
 		int32_t L_8 = ___2_hi;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C(L_5, L_6, L_7, L_8, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953(L_5, L_6, L_7, L_8, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		return;
 	}
 
@@ -9415,33 +9414,33 @@ IL_0024:
 		}
 	}
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_10 = ___0_keys;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_11 = ___4_comparer;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_10 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_11 = ___4_comparer;
 		int32_t L_12 = ___1_lo;
 		int32_t L_13 = ___2_hi;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C(L_10, L_11, L_12, ((int32_t)il2cpp_codegen_subtract(L_13, 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_14 = ___0_keys;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_15 = ___4_comparer;
+		ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953(L_10, L_11, L_12, ((int32_t)il2cpp_codegen_subtract(L_13, 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_14 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_15 = ___4_comparer;
 		int32_t L_16 = ___1_lo;
 		int32_t L_17 = ___2_hi;
-		ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C(L_14, L_15, L_16, L_17, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_18 = ___0_keys;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_19 = ___4_comparer;
+		ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953(L_14, L_15, L_16, L_17, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_18 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_19 = ___4_comparer;
 		int32_t L_20 = ___2_hi;
 		int32_t L_21 = ___2_hi;
-		ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C(L_18, L_19, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953(L_18, L_19, ((int32_t)il2cpp_codegen_subtract(L_20, 1)), L_21, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
 		return;
 	}
 
 IL_004b:
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_22 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_22 = ___0_keys;
 		int32_t L_23 = ___1_lo;
 		int32_t L_24 = ___2_hi;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_25 = ___4_comparer;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_25 = ___4_comparer;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_InsertionSort_m5952A74BEF13D7E625B201AF193A5118A3580185(L_22, L_23, L_24, L_25, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
+		ArraySortHelper_1_InsertionSort_m5269A557DD3C7FEE6E7BA5BA3421A1C51EDFFD93(L_22, L_23, L_24, L_25, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 15));
 		return;
 	}
 
@@ -9454,12 +9453,12 @@ IL_0056:
 		}
 	}
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_27 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_27 = ___0_keys;
 		int32_t L_28 = ___1_lo;
 		int32_t L_29 = ___2_hi;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_30 = ___4_comparer;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_30 = ___4_comparer;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_Heapsort_mEC95696439BCF54A179788A828F315761E1C2626(L_27, L_28, L_29, L_30, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
+		ArraySortHelper_1_Heapsort_mB311C3A79E177FF1509C96ACF1A42A6C9C72F9F6(L_27, L_28, L_29, L_30, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 16));
 		return;
 	}
 
@@ -9467,20 +9466,20 @@ IL_0064:
 	{
 		int32_t L_31 = ___3_depthLimit;
 		___3_depthLimit = ((int32_t)il2cpp_codegen_subtract(L_31, 1));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_32 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_32 = ___0_keys;
 		int32_t L_33 = ___1_lo;
 		int32_t L_34 = ___2_hi;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_35 = ___4_comparer;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_35 = ___4_comparer;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
 		int32_t L_36;
-		L_36 = ArraySortHelper_1_PickPivotAndPartition_m6C45F8F5137F137AFE9B14F2ED4C9513B06B1D7A(L_32, L_33, L_34, L_35, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
+		L_36 = ArraySortHelper_1_PickPivotAndPartition_mBA357A532F746CF47DE75CCB931D0C1F931F3D7E(L_32, L_33, L_34, L_35, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 17));
 		V_1 = L_36;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_37 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_37 = ___0_keys;
 		int32_t L_38 = V_1;
 		int32_t L_39 = ___2_hi;
 		int32_t L_40 = ___3_depthLimit;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_41 = ___4_comparer;
-		ArraySortHelper_1_IntroSort_m66A7665EAF9D6257F4F91E1ECEAC4CF96B01174B(L_37, ((int32_t)il2cpp_codegen_add(L_38, 1)), L_39, L_40, L_41, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_41 = ___4_comparer;
+		ArraySortHelper_1_IntroSort_mA38994B6A7238E794737C8EDA1DAF15B2DFF8B07(L_37, ((int32_t)il2cpp_codegen_add(L_38, 1)), L_39, L_40, L_41, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 13));
 		int32_t L_42 = V_1;
 		___2_hi = ((int32_t)il2cpp_codegen_subtract(L_42, 1));
 	}
@@ -9498,10 +9497,10 @@ IL_0086:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartition_m6C45F8F5137F137AFE9B14F2ED4C9513B06B1D7A_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartition_mBA357A532F746CF47DE75CCB931D0C1F931F3D7E_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 V_1;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	int32_t V_2 = 0;
 	int32_t V_3 = 0;
@@ -9510,32 +9509,32 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartiti
 		int32_t L_1 = ___2_hi;
 		int32_t L_2 = ___1_lo;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_0, ((int32_t)(((int32_t)il2cpp_codegen_subtract(L_1, L_2))/2))));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_3 = ___0_keys;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_4 = ___3_comparer;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_3 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_4 = ___3_comparer;
 		int32_t L_5 = ___1_lo;
 		int32_t L_6 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C(L_3, L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_7 = ___0_keys;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_8 = ___3_comparer;
+		ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953(L_3, L_4, L_5, L_6, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_7 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_8 = ___3_comparer;
 		int32_t L_9 = ___1_lo;
 		int32_t L_10 = ___2_hi;
-		ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C(L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_11 = ___0_keys;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_12 = ___3_comparer;
+		ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953(L_7, L_8, L_9, L_10, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_11 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_12 = ___3_comparer;
 		int32_t L_13 = V_0;
 		int32_t L_14 = ___2_hi;
-		ArraySortHelper_1_SwapIfGreater_mE42B5F8EC5A98C9A1C2E04182606096F5FE99F3C(L_11, L_12, L_13, L_14, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_15 = ___0_keys;
+		ArraySortHelper_1_SwapIfGreater_mD95DFDF30226B514B50576F6BB4FCB1C7962F953(L_11, L_12, L_13, L_14, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 14));
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_15 = ___0_keys;
 		int32_t L_16 = V_0;
 		NullCheck(L_15);
 		int32_t L_17 = L_16;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_18 = (L_15)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
 		V_1 = L_18;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_19 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_19 = ___0_keys;
 		int32_t L_20 = V_0;
 		int32_t L_21 = ___2_hi;
-		ArraySortHelper_1_Swap_m75AF6F2CEC2B29184B652528B550B26F38175D79(L_19, L_20, ((int32_t)il2cpp_codegen_subtract(L_21, 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
+		ArraySortHelper_1_Swap_mDA5D85CAC786EA0156B2411C462BCBBB55CA23DF(L_19, L_20, ((int32_t)il2cpp_codegen_subtract(L_21, 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
 		int32_t L_22 = ___1_lo;
 		V_2 = L_22;
 		int32_t L_23 = ___2_hi;
@@ -9545,18 +9544,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ArraySortHelper_1_PickPivotAndPartiti
 
 IL_003d:
 	{
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_24 = ___3_comparer;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_25 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_24 = ___3_comparer;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_25 = ___0_keys;
 		int32_t L_26 = V_2;
 		int32_t L_27 = ((int32_t)il2cpp_codegen_add(L_26, 1));
 		V_2 = L_27;
 		NullCheck(L_25);
 		int32_t L_28 = L_27;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_29 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_30 = V_1;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_29 = (L_25)->GetAt(static_cast<il2cpp_array_size_t>(L_28));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_30 = V_1;
 		NullCheck(L_24);
 		int32_t L_31;
-		L_31 = Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_inline(L_24, L_29, L_30, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		L_31 = Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_inline(L_24, L_29, L_30, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		if ((((int32_t)L_31) < ((int32_t)0)))
 		{
 			goto IL_003d;
@@ -9565,18 +9564,18 @@ IL_003d:
 
 IL_0052:
 	{
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_32 = ___3_comparer;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_33 = V_1;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_34 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_32 = ___3_comparer;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_33 = V_1;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_34 = ___0_keys;
 		int32_t L_35 = V_3;
 		int32_t L_36 = ((int32_t)il2cpp_codegen_subtract(L_35, 1));
 		V_3 = L_36;
 		NullCheck(L_34);
 		int32_t L_37 = L_36;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_38 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_38 = (L_34)->GetAt(static_cast<il2cpp_array_size_t>(L_37));
 		NullCheck(L_32);
 		int32_t L_39;
-		L_39 = Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_inline(L_32, L_33, L_38, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		L_39 = Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_inline(L_32, L_33, L_38, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		if ((((int32_t)L_39) < ((int32_t)0)))
 		{
 			goto IL_0052;
@@ -9591,11 +9590,11 @@ IL_0052:
 		}
 	}
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_42 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_42 = ___0_keys;
 		int32_t L_43 = V_2;
 		int32_t L_44 = V_3;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_Swap_m75AF6F2CEC2B29184B652528B550B26F38175D79(L_42, L_43, L_44, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
+		ArraySortHelper_1_Swap_mDA5D85CAC786EA0156B2411C462BCBBB55CA23DF(L_42, L_43, L_44, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
 	}
 
 IL_0073:
@@ -9610,16 +9609,16 @@ IL_0073:
 
 IL_0077:
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_47 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_47 = ___0_keys;
 		int32_t L_48 = V_2;
 		int32_t L_49 = ___2_hi;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_Swap_m75AF6F2CEC2B29184B652528B550B26F38175D79(L_47, L_48, ((int32_t)il2cpp_codegen_subtract(L_49, 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
+		ArraySortHelper_1_Swap_mDA5D85CAC786EA0156B2411C462BCBBB55CA23DF(L_47, L_48, ((int32_t)il2cpp_codegen_subtract(L_49, 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
 		int32_t L_50 = V_2;
 		return L_50;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Heapsort_mEC95696439BCF54A179788A828F315761E1C2626_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Heapsort_mB311C3A79E177FF1509C96ACF1A42A6C9C72F9F6_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
@@ -9635,13 +9634,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_Heapsort_mEC95696439BC
 
 IL_000c:
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_3 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_3 = ___0_keys;
 		int32_t L_4 = V_1;
 		int32_t L_5 = V_0;
 		int32_t L_6 = ___1_lo;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_7 = ___3_comparer;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_7 = ___3_comparer;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_DownHeap_m0E7E6465E14E531D97FBDE8E9339CE0750EEEB58(L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19));
+		ArraySortHelper_1_DownHeap_m768B159C956F8C413BDAD5ADB86BF3217BB60E15(L_3, L_4, L_5, L_6, L_7, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19));
 		int32_t L_8 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_8, 1));
 	}
@@ -9662,17 +9661,17 @@ IL_001a:
 
 IL_0022:
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_11 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_11 = ___0_keys;
 		int32_t L_12 = ___1_lo;
 		int32_t L_13 = ___1_lo;
 		int32_t L_14 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_Swap_m75AF6F2CEC2B29184B652528B550B26F38175D79(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_15 = ___0_keys;
+		ArraySortHelper_1_Swap_mDA5D85CAC786EA0156B2411C462BCBBB55CA23DF(L_11, L_12, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_13, L_14)), 1)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 18));
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_15 = ___0_keys;
 		int32_t L_16 = V_2;
 		int32_t L_17 = ___1_lo;
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_18 = ___3_comparer;
-		ArraySortHelper_1_DownHeap_m0E7E6465E14E531D97FBDE8E9339CE0750EEEB58(L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, L_18, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19));
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_18 = ___3_comparer;
+		ArraySortHelper_1_DownHeap_m768B159C956F8C413BDAD5ADB86BF3217BB60E15(L_15, 1, ((int32_t)il2cpp_codegen_subtract(L_16, 1)), L_17, L_18, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 19));
 		int32_t L_19 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_19, 1));
 	}
@@ -9689,18 +9688,18 @@ IL_003e:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_DownHeap_m0E7E6465E14E531D97FBDE8E9339CE0750EEEB58_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___4_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_DownHeap_m768B159C956F8C413BDAD5ADB86BF3217BB60E15_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_i, int32_t ___2_n, int32_t ___3_lo, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___4_comparer, const RuntimeMethod* method) 
 {
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 V_0;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	int32_t V_1 = 0;
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_0 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_0 = ___0_keys;
 		int32_t L_1 = ___3_lo;
 		int32_t L_2 = ___1_i;
 		NullCheck(L_0);
 		int32_t L_3 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_1, L_2)), 1));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_4 = (L_0)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
 		V_0 = L_4;
 		goto IL_0067;
 	}
@@ -9717,22 +9716,22 @@ IL_000e:
 		}
 	}
 	{
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_8 = ___4_comparer;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_9 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_8 = ___4_comparer;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_9 = ___0_keys;
 		int32_t L_10 = ___3_lo;
 		int32_t L_11 = V_1;
 		NullCheck(L_9);
 		int32_t L_12 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_10, L_11)), 1));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_13 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_14 = ___0_keys;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_13 = (L_9)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_14 = ___0_keys;
 		int32_t L_15 = ___3_lo;
 		int32_t L_16 = V_1;
 		NullCheck(L_14);
 		int32_t L_17 = ((int32_t)il2cpp_codegen_add(L_15, L_16));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_18 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_18 = (L_14)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
 		NullCheck(L_8);
 		int32_t L_19;
-		L_19 = Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_inline(L_8, L_13, L_18, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		L_19 = Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_inline(L_8, L_13, L_18, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		if ((((int32_t)L_19) >= ((int32_t)0)))
 		{
 			goto IL_0038;
@@ -9745,34 +9744,34 @@ IL_000e:
 
 IL_0038:
 	{
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_21 = ___4_comparer;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_22 = V_0;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_23 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_21 = ___4_comparer;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_22 = V_0;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_23 = ___0_keys;
 		int32_t L_24 = ___3_lo;
 		int32_t L_25 = V_1;
 		NullCheck(L_23);
 		int32_t L_26 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_24, L_25)), 1));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_27 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_27 = (L_23)->GetAt(static_cast<il2cpp_array_size_t>(L_26));
 		NullCheck(L_21);
 		int32_t L_28;
-		L_28 = Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_inline(L_21, L_22, L_27, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		L_28 = Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_inline(L_21, L_22, L_27, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		if ((((int32_t)L_28) >= ((int32_t)0)))
 		{
 			goto IL_006d;
 		}
 	}
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_29 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_29 = ___0_keys;
 		int32_t L_30 = ___3_lo;
 		int32_t L_31 = ___1_i;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_32 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_32 = ___0_keys;
 		int32_t L_33 = ___3_lo;
 		int32_t L_34 = V_1;
 		NullCheck(L_32);
 		int32_t L_35 = ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_33, L_34)), 1));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_36 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_36 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_35));
 		NullCheck(L_29);
-		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_30, L_31)), 1))), (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257)L_36);
+		(L_29)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_30, L_31)), 1))), (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4)L_36);
 		int32_t L_37 = V_1;
 		___1_i = L_37;
 	}
@@ -9789,20 +9788,20 @@ IL_0067:
 
 IL_006d:
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_40 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_40 = ___0_keys;
 		int32_t L_41 = ___3_lo;
 		int32_t L_42 = ___1_i;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_43 = V_0;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_43 = V_0;
 		NullCheck(L_40);
-		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_41, L_42)), 1))), (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257)L_43);
+		(L_40)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_add(L_41, L_42)), 1))), (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4)L_43);
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_InsertionSort_m5952A74BEF13D7E625B201AF193A5118A3580185_gshared (QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* ___3_comparer, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1_InsertionSort_m5269A557DD3C7FEE6E7BA5BA3421A1C51EDFFD93_gshared (QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_keys, int32_t ___1_lo, int32_t ___2_hi, Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* ___3_comparer, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	int32_t V_1 = 0;
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 V_2;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
 		int32_t L_0 = ___1_lo;
@@ -9814,26 +9813,26 @@ IL_0004:
 	{
 		int32_t L_1 = V_0;
 		V_1 = L_1;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_2 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_2 = ___0_keys;
 		int32_t L_3 = V_0;
 		NullCheck(L_2);
 		int32_t L_4 = ((int32_t)il2cpp_codegen_add(L_3, 1));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
 		V_2 = L_5;
 		goto IL_0026;
 	}
 
 IL_0012:
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_6 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_6 = ___0_keys;
 		int32_t L_7 = V_1;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_8 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_8 = ___0_keys;
 		int32_t L_9 = V_1;
 		NullCheck(L_8);
 		int32_t L_10 = L_9;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		NullCheck(L_6);
-		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_7, 1))), (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257)L_11);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_7, 1))), (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4)L_11);
 		int32_t L_12 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_subtract(L_12, 1));
 	}
@@ -9848,16 +9847,16 @@ IL_0026:
 		}
 	}
 	{
-		Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* L_15 = ___3_comparer;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_16 = V_2;
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_17 = ___0_keys;
+		Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* L_15 = ___3_comparer;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_16 = V_2;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_17 = ___0_keys;
 		int32_t L_18 = V_1;
 		NullCheck(L_17);
 		int32_t L_19 = L_18;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
 		NullCheck(L_15);
 		int32_t L_21;
-		L_21 = Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_inline(L_15, L_16, L_20, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
+		L_21 = Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_inline(L_15, L_16, L_20, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 12));
 		if ((((int32_t)L_21) < ((int32_t)0)))
 		{
 			goto IL_0012;
@@ -9866,11 +9865,11 @@ IL_0026:
 
 IL_003b:
 	{
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_22 = ___0_keys;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_22 = ___0_keys;
 		int32_t L_23 = V_1;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_24 = V_2;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_24 = V_2;
 		NullCheck(L_22);
-		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_23, 1))), (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257)L_24);
+		(L_22)->SetAt(static_cast<il2cpp_array_size_t>(((int32_t)il2cpp_codegen_add(L_23, 1))), (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4)L_24);
 		int32_t L_25 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_add(L_25, 1));
 	}
@@ -9888,28 +9887,28 @@ IL_0049:
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A* ArraySortHelper_1_get_Default_m305C8047B51E05C9EBA30D3A9123AB4286CA6FDD_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D* ArraySortHelper_1_get_Default_m5A20F37FB3ABAD2CC17F665340E2A071127FF17D_gshared (const RuntimeMethod* method) 
 {
 	{
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9));
-		ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A* L_0 = ((ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->___s_defaultArraySortHelper;
+		ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D* L_0 = ((ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->___s_defaultArraySortHelper;
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1__ctor_mF5545FD8491C9424FC131F76CE1D409561D7A607_gshared (ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1__ctor_m9333E0666A848804596C83ADFBFBD50ADFBCB21B_gshared (ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D* __this, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1__cctor_m178A50960431A6197E76740F4D530D378C83F8F8_gshared (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ArraySortHelper_1__cctor_mE44AA6D56B8D394C0E8C0EC8F26157355E951008_gshared (const RuntimeMethod* method) 
 {
 	{
-		ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A* L_0 = (ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 20));
-		ArraySortHelper_1__ctor_mF5545FD8491C9424FC131F76CE1D409561D7A607(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21));
-		((ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->___s_defaultArraySortHelper = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&((ArraySortHelper_1_tE4DBA91F3F9D810058971AD884390B105852234A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->___s_defaultArraySortHelper), (void*)L_0);
+		ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D* L_0 = (ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 20));
+		ArraySortHelper_1__ctor_m9333E0666A848804596C83ADFBFBD50ADFBCB21B(L_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 21));
+		((ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->___s_defaultArraySortHelper = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&((ArraySortHelper_1_t8C0AAA3C73FCF06D89F61ACE2FC3EDDC7D4ACA8D_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 9)))->___s_defaultArraySortHelper), (void*)L_0);
 		return;
 	}
 }
@@ -34661,9 +34660,9 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_m1156
 	typedef int32_t (*FunctionPointerType) (RuntimeObject*, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289, SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_mA0826AF20C25AC116BACCE2427D38698BEB90797_gshared_inline (Comparison_1_tC1D7BA79111036090926BBCBC67B49B3B61BBB6C* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_x, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___1_y, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_mB2B36852ADB0AA65FBAC16DA1163DFEFD42C57E4_gshared_inline (Comparison_1_tC75D8CC6F4D5D1251883A5C7F38F7E3BA397AD22* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_x, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___1_y, const RuntimeMethod* method) 
 {
-	typedef int32_t (*FunctionPointerType) (RuntimeObject*, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, const RuntimeMethod*);
+	typedef int32_t (*FunctionPointerType) (RuntimeObject*, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, const RuntimeMethod*);
 	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_x, ___1_y, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Comparison_1_Invoke_mA0762D986531D3027685C36EEA3DA6EF393DB0B9_gshared_inline (Comparison_1_tA6E38F9B8A5E125EC6515F9679C2079C747A0149* __this, SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC ___0_x, SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC ___1_y, const RuntimeMethod* method) 

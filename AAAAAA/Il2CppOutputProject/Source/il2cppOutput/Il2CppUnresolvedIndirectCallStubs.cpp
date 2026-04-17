@@ -2543,20 +2543,20 @@ struct SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_marshaled_com
 	uint64_t ___actionId;
 	Il2CppChar* ___path;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 
 {
 	String_t* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_pinvoke
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_pinvoke
 {
 	char* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_com
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_com
 {
 	Il2CppChar* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
 struct SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC 
 {
@@ -17723,7 +17723,7 @@ static  uint8_t UnresolvedStaticCall_1032 (RuntimeObject* p1, SerializedBinding_
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  uint8_t UnresolvedStaticCall_1033 (RuntimeObject* p1, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p2, const RuntimeMethod* method)
+static  uint8_t UnresolvedStaticCall_1033 (RuntimeObject* p1, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p2, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2};
 	uint8_t il2cppRetVal;
@@ -20628,28 +20628,28 @@ static  uint8_t UnresolvedVirtualCall_1364 (RuntimeObject* __this, SerializedBin
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  uint8_t UnresolvedVirtualCall_1365 (RuntimeObject* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p1, const RuntimeMethod* method)
+static  uint8_t UnresolvedVirtualCall_1365 (RuntimeObject* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	uint8_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  uint8_t UnresolvedStaticCall_1365 (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p1, const RuntimeMethod* method)
+static  uint8_t UnresolvedStaticCall_1365 (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	uint8_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  uint8_t UnresolvedVirtualCall_1366 (RuntimeObject* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p1, RuntimeObject* p2, const RuntimeMethod* method)
+static  uint8_t UnresolvedVirtualCall_1366 (RuntimeObject* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p1, RuntimeObject* p2, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,p2};
 	uint8_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  uint8_t UnresolvedVirtualCall_1367 (RuntimeObject* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p1, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p2, const RuntimeMethod* method)
+static  uint8_t UnresolvedVirtualCall_1367 (RuntimeObject* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p1, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p2, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,&p2};
 	uint8_t il2cppRetVal;
@@ -29098,14 +29098,14 @@ static  int32_t UnresolvedStaticCall_2355 (RuntimeObject* p1, SerializedBinding_
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedVirtualCall_2356 (RuntimeObject* __this, RuntimeObject* p1, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p2, int32_t p3, int32_t p4, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_2356 (RuntimeObject* __this, RuntimeObject* p1, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p2, int32_t p3, int32_t p4, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2,&p3,&p4};
 	int32_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedStaticCall_2357 (RuntimeObject* p1, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p2, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p3, const RuntimeMethod* method)
+static  int32_t UnresolvedStaticCall_2357 (RuntimeObject* p1, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p2, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p3, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2,&p3};
 	int32_t il2cppRetVal;
@@ -31317,21 +31317,21 @@ static  int32_t UnresolvedStaticCall_2603 (SerializedBinding_t72586173A0E982D20E
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedVirtualCall_2604 (RuntimeObject* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p1, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_2604 (RuntimeObject* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	int32_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedVirtualCall_2605 (RuntimeObject* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p1, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p2, const RuntimeMethod* method)
+static  int32_t UnresolvedVirtualCall_2605 (RuntimeObject* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p1, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p2, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,&p2};
 	int32_t il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  int32_t UnresolvedStaticCall_2605 (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p1, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p2, const RuntimeMethod* method)
+static  int32_t UnresolvedStaticCall_2605 (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p1, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p2, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,&p2};
 	int32_t il2cppRetVal;
@@ -42478,7 +42478,7 @@ static  void UnresolvedStaticCall_3971 (RuntimeObject* p1, PhotoCaptureResult_t2
 	void* args[] = {p1,&p2,p3};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
 }
-static  void UnresolvedStaticCall_3972 (RuntimeObject* p1, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p2, const RuntimeMethod* method)
+static  void UnresolvedStaticCall_3972 (RuntimeObject* p1, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p2, const RuntimeMethod* method)
 {
 	void* args[] = {p1,&p2};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
@@ -44128,7 +44128,7 @@ static  void UnresolvedVirtualCall_4246 (RuntimeObject* __this, uint32_t p1, Ser
 	void* args[] = {&p1,&p2};
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, NULL);
 }
-static  void UnresolvedVirtualCall_4247 (RuntimeObject* __this, uint32_t p1, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p2, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_4247 (RuntimeObject* __this, uint32_t p1, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p2, const RuntimeMethod* method)
 {
 	void* args[] = {&p1,&p2};
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, NULL);
@@ -44893,12 +44893,12 @@ static  void UnresolvedStaticCall_4357 (PhotoCaptureResult_t279DB2EF14700B1BB96F
 	void* args[] = {&p1,p2};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
 }
-static  void UnresolvedVirtualCall_4358 (RuntimeObject* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p1, const RuntimeMethod* method)
+static  void UnresolvedVirtualCall_4358 (RuntimeObject* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, NULL);
 }
-static  void UnresolvedStaticCall_4358 (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 p1, const RuntimeMethod* method)
+static  void UnresolvedStaticCall_4358 (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
 	method->invoker_method(il2cpp_codegen_get_direct_method_pointer(method), method, NULL, args, NULL);
@@ -46444,23 +46444,23 @@ static  SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 UnresolvedVi
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 UnresolvedVirtualCall_4546 (RuntimeObject* __this, const RuntimeMethod* method)
+static  QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 UnresolvedVirtualCall_4546 (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 il2cppRetVal;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, NULL, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 UnresolvedVirtualCall_4547 (RuntimeObject* __this, int32_t p1, const RuntimeMethod* method)
+static  QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 UnresolvedVirtualCall_4547 (RuntimeObject* __this, int32_t p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 il2cppRetVal;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }
-static  QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 UnresolvedVirtualCall_4548 (RuntimeObject* __this, uint32_t p1, const RuntimeMethod* method)
+static  QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 UnresolvedVirtualCall_4548 (RuntimeObject* __this, uint32_t p1, const RuntimeMethod* method)
 {
 	void* args[] = {&p1};
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 il2cppRetVal;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 il2cppRetVal;
 	method->invoker_method(il2cpp_codegen_get_method_pointer(method), method, __this, args, &il2cppRetVal);
 	return il2cppRetVal;
 }

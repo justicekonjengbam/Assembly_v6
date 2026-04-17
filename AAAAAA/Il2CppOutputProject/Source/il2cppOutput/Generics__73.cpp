@@ -215,7 +215,7 @@ struct IEnumerator_1_t70967539C299369FE26E04F53231EFE6EEC45C7B;
 struct IEnumerator_1_t11DDE0EA5F75BC7D8DFF009FD1DCBA406AFACFF4;
 struct IEnumerator_1_tB48F7566E828FBCE013F4420CF70878DE7DA2B7E;
 struct IEnumerator_1_t068983E2A6067587342015FB4283DD9DC7E8CEC0;
-struct IEnumerator_1_tE8942A8943B24A6B8BBFB92208678134436D99D9;
+struct IEnumerator_1_t227D6C508F03C6FCAF870F18B61CD6E22D35221B;
 struct IEnumerator_1_t9C4BEE74A726ABB541B6A2B81ABEBF11CEA37C93;
 struct IEnumerator_1_t1D6845778C477B29D2100800D3060FCD6AA9BA4B;
 struct IEnumerator_1_tF908C78802E84351CBA9D86324D4310536DCE10B;
@@ -255,7 +255,7 @@ struct IVectorToIListAdapter_1_tE9ABBC9E7F4118F35BBA06AE5259D37FAE265EB2;
 struct IVectorToIListAdapter_1_t1987D749B8714122D4D41D762C152725FD7EF821;
 struct IVectorToIListAdapter_1_tD53E5EC845622BD072A31D212FCEC7C20531A66E;
 struct IVectorToIListAdapter_1_t35BC9C986F84129FC683BB7306CAB2F21C868FC2;
-struct IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB;
+struct IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382;
 struct IVectorToIListAdapter_1_tFA930292049056A9C26D452C2FE03CC346E92CF8;
 struct IVectorToIListAdapter_1_t7C3B1B1D5B12941F3A6237E792B517D0D0371444;
 struct IVectorToIListAdapter_1_tCDE02BDE2BC7A2BAF43FD3BCC07B9737E6C99A49;
@@ -432,7 +432,7 @@ struct IVectorViewToIReadOnlyListAdapter_1_tC057D26B5C9CDA7417CF27DC1440628959B1
 struct IVectorViewToIReadOnlyListAdapter_1_tD2D7F17AC5A2DD8F718CFB15B9CA585947CDA687;
 struct IVectorViewToIReadOnlyListAdapter_1_t14831D2C1B12ED831A803D1912742A8345F05163;
 struct IVectorViewToIReadOnlyListAdapter_1_t833BF9D2BA08C355ADD65C7ED7DE4306DD2B64B8;
-struct IVectorViewToIReadOnlyListAdapter_1_t2865DBE4D743E972F940BB01D28298808FA9B5AA;
+struct IVectorViewToIReadOnlyListAdapter_1_t2B29FD6DDB363FBDE054553A2C1D34F47E3D7327;
 struct IVectorViewToIReadOnlyListAdapter_1_t5228562950911AD7D626E64EE5A31B1701EB027F;
 struct IVectorViewToIReadOnlyListAdapter_1_t87D992CB5745CA327F26DAA096BE256C621382CB;
 struct InputStateHistory_1_tFE6497AA1E7DC5B54CA3C00976576A7E88C77798;
@@ -465,7 +465,7 @@ struct InputU5BU5D_t5259FC42F02A4E5953F0B8D1148D965524A11096;
 struct OutputU5BU5D_tAA0566FEDC8806CBEE22C29C9DE3A7FCAD4A2DF2;
 struct SortedColumnStateU5BU5D_tD76039072018E258494F81C8D50F35EAC97118E6;
 struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813;
-struct QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5;
+struct QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27;
 struct SingleRangeU5BU5D_t9F938F2249733D85C4F97842A125778D69A843D6;
 struct RenderNodeDataU5BU5D_t73A42A22EC1354DE8A25C10A2E408E1DA7C41B7E;
 struct HandlePointU5BU5D_tB7A6B0D4426C52FC5DB0A360E808CFDEAA03EB7C;
@@ -600,7 +600,7 @@ struct InputU5BU5D_t5259FC42F02A4E5953F0B8D1148D965524A11096;
 struct OutputU5BU5D_tAA0566FEDC8806CBEE22C29C9DE3A7FCAD4A2DF2;
 struct SortedColumnStateU5BU5D_tD76039072018E258494F81C8D50F35EAC97118E6;
 struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813;
-struct QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5;
+struct QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27;
 struct SingleRangeU5BU5D_t9F938F2249733D85C4F97842A125778D69A843D6;
 struct RenderNodeDataU5BU5D_t73A42A22EC1354DE8A25C10A2E408E1DA7C41B7E;
 struct HandlePointU5BU5D_tB7A6B0D4426C52FC5DB0A360E808CFDEAA03EB7C;
@@ -866,7 +866,7 @@ struct IVectorToIListAdapter_1_tD53E5EC845622BD072A31D212FCEC7C20531A66E  : publ
 struct IVectorToIListAdapter_1_t35BC9C986F84129FC683BB7306CAB2F21C868FC2  : public RuntimeObject
 {
 };
-struct IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB  : public RuntimeObject
+struct IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382  : public RuntimeObject
 {
 };
 struct IVectorToIListAdapter_1_tFA930292049056A9C26D452C2FE03CC346E92CF8  : public RuntimeObject
@@ -1397,7 +1397,7 @@ struct IVectorViewToIReadOnlyListAdapter_1_t14831D2C1B12ED831A803D1912742A8345F0
 struct IVectorViewToIReadOnlyListAdapter_1_t833BF9D2BA08C355ADD65C7ED7DE4306DD2B64B8  : public RuntimeObject
 {
 };
-struct IVectorViewToIReadOnlyListAdapter_1_t2865DBE4D743E972F940BB01D28298808FA9B5AA  : public RuntimeObject
+struct IVectorViewToIReadOnlyListAdapter_1_t2B29FD6DDB363FBDE054553A2C1D34F47E3D7327  : public RuntimeObject
 {
 };
 struct IVectorViewToIReadOnlyListAdapter_1_t5228562950911AD7D626E64EE5A31B1701EB027F  : public RuntimeObject
@@ -2363,20 +2363,20 @@ struct SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_marshaled_com
 	uint64_t ___actionId;
 	Il2CppChar* ___path;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 
 {
 	String_t* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_pinvoke
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_pinvoke
 {
 	char* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_com
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_com
 {
 	Il2CppChar* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
 struct SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC 
 {
@@ -5331,43 +5331,43 @@ struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813  : publ
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___path), (void*)NULL);
 	}
 };
-struct QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5  : public RuntimeArray
+struct QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27  : public RuntimeArray
 {
-	ALIGN_FIELD (8) QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 m_Items[1];
+	ALIGN_FIELD (8) QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 m_Items[1];
 
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 GetAt(il2cpp_array_size_t index) const
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 GetAt(il2cpp_array_size_t index) const
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items[index];
 	}
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257* GetAddressAt(il2cpp_array_size_t index)
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4* GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items + index;
 	}
-	inline void SetAt(il2cpp_array_size_t index, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 value)
+	inline void SetAt(il2cpp_array_size_t index, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 value)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___qrText), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___partPrefabs), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___modelObject), (void*)NULL);
 		#endif
 	}
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 GetAtUnchecked(il2cpp_array_size_t index) const
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 GetAtUnchecked(il2cpp_array_size_t index) const
 	{
 		return m_Items[index];
 	}
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4* GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
 		return m_Items + index;
 	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 value)
+	inline void SetAtUnchecked(il2cpp_array_size_t index, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___qrText), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___partPrefabs), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___modelObject), (void*)NULL);
 		#endif
 	}
 };
@@ -8403,7 +8403,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorToIListAdapter_1_System
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 IVectorToIListAdapter_1_System_Collections_Generic_IList_1_get_Item_m9228D06F1782E1352617201C4695CA65F2F0CE49_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, int32_t ___0_index, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 IVectorToIListAdapter_1_System_Collections_Generic_IList_1_get_Item_mF3291435303B8F08CAF56CF883073747224837C0_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
@@ -8417,8 +8417,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D585894
 	{
 		int32_t L_1 = ___0_index;
 		NullCheck((RuntimeObject*)__this);
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_2;
-		L_2 = InterfaceFuncInvoker1< QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, uint32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, (uint32_t)L_1);
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_2;
+		L_2 = InterfaceFuncInvoker1< QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, uint32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, (uint32_t)L_1);
 		return L_2;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -8455,7 +8455,7 @@ IL_0026:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_IList_1_set_Item_mAD3E3CE8C30997AA38B0730B203BB75CC0233C72_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, int32_t ___0_index, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___1_value, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_IList_1_set_Item_m682924DF1D1CEA2D18EA32518180BFFA91369B60_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, int32_t ___0_index, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___1_value, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
@@ -8468,9 +8468,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collectio
 	try
 	{
 		int32_t L_1 = ___0_index;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_2 = ___1_value;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_2 = ___1_value;
 		NullCheck((RuntimeObject*)__this);
-		InterfaceActionInvoker2< uint32_t, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 >::Invoke(4, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, (uint32_t)L_1, L_2);
+		InterfaceActionInvoker2< uint32_t, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 >::Invoke(4, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, (uint32_t)L_1, L_2);
 		return;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -8507,14 +8507,14 @@ IL_002a:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IVectorToIListAdapter_1_System_Collections_Generic_IList_1_IndexOf_m70FFEEE58192CE8C3A8F2B406A5DFC472AE0C11E_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_item, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IVectorToIListAdapter_1_System_Collections_Generic_IList_1_IndexOf_m71A506C7D6EC7BCAD67D5097607E457879880EAF_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_item, const RuntimeMethod* method) 
 {
 	uint32_t V_0 = 0;
 	{
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_0 = ___0_item;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_0 = ___0_item;
 		NullCheck((RuntimeObject*)__this);
 		bool L_1;
-		L_1 = InterfaceFuncInvoker2< bool, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, uint32_t* >::Invoke(3, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, L_0, (&V_0));
+		L_1 = InterfaceFuncInvoker2< bool, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, uint32_t* >::Invoke(3, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, L_0, (&V_0));
 		if (L_1)
 		{
 			goto IL_0012;
@@ -8544,7 +8544,7 @@ IL_0026:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_IList_1_Insert_m76D6F0E1C9DEF3F17D8203C5A5A3926180AC4B4B_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, int32_t ___0_index, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___1_item, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_IList_1_Insert_m6392B58B3030D9F331C3C0DFCDE0637CF7CC7B9F_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, int32_t ___0_index, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___1_item, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
@@ -8557,9 +8557,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collectio
 	try
 	{
 		int32_t L_1 = ___0_index;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_2 = ___1_item;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_2 = ___1_item;
 		NullCheck((RuntimeObject*)__this);
-		InterfaceActionInvoker2< uint32_t, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 >::Invoke(5, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, (uint32_t)L_1, L_2);
+		InterfaceActionInvoker2< uint32_t, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 >::Invoke(5, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, (uint32_t)L_1, L_2);
 		return;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -8596,7 +8596,7 @@ IL_002a:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_IList_1_RemoveAt_mADBE183221FB8FD04002C08F4D97C07C36033623_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, int32_t ___0_index, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_IList_1_RemoveAt_m31897C68731D9DADDCC065856DCE387000D6C201_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
@@ -8647,7 +8647,7 @@ IL_0026:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_4, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_get_Count_mFBFC10EAE209701092999B18B36ED4E48AD1DB60_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_get_Count_m326DCE666B21000C4A65D9D722C239889472124C_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -8655,7 +8655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IVectorToIListAdapter_1_System_Collec
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_get_IsReadOnly_m384A423624B6CB652108482FA53941AC858C5CA5_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_get_IsReadOnly_m5E0CC86D0BDE4ED27B0419CA2649265A4A890ED5_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -8663,7 +8663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IVectorToIListAdapter_1_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_Add_m58AA5D29BF79846988405F9917CA8511F0BC6A46_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_item, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_Add_m820F4106AD4904CEA9D9D9D2A3B303CD1D1B23C5_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_item, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -8671,7 +8671,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_Clear_m41F4F95C9AA98FBFFD612BB73B1F1593653E2E28_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_Clear_m9388E34A1AF007972665BA8C7E6DEC08588CD0D1_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -8679,7 +8679,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_Contains_mFEF168D601073A511CA5C57887B68354D522C2E7_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_item, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_Contains_mB403498BC8996C98E3C1CFC2DD65702B780FBF65_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_item, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -8687,7 +8687,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IVectorToIListAdapter_1_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_CopyTo_m731BC710784AE5FA4383876EF8450DA02C9D9427_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___0_array, int32_t ___1_arrayIndex, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_CopyTo_m060EF8985F08676AB50977BCD3BFFFF8F7704F34_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___0_array, int32_t ___1_arrayIndex, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -8695,7 +8695,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IVectorToIListAdapter_1_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_Remove_m0156BD38C5CE45CA05594AB57125252B15BEB68D_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_item, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IVectorToIListAdapter_1_System_Collections_Generic_ICollection_1_Remove_m12C6B883A9FDA14FE44EC232F6FFBDFCFC75FBDB_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_item, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -8703,7 +8703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IVectorToIListAdapter_1_System_Collectio
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorToIListAdapter_1_System_Collections_Generic_IEnumerable_1_GetEnumerator_m5CA5340B7A4817F4B8102FDE079404ADC1C0A130_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorToIListAdapter_1_System_Collections_Generic_IEnumerable_1_GetEnumerator_m8C3E7ABD25BFEC27295BD79A1DD86B24139D8D54_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -8711,7 +8711,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorToIListAdapter_1_System
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorToIListAdapter_1_System_Collections_IEnumerable_GetEnumerator_mA59A1B37087A4F27904E9922ED01D25E4C2A8FD7_gshared (IVectorToIListAdapter_1_t7BF0613C2B79250EAF65D61BA68FC35A28E056EB* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorToIListAdapter_1_System_Collections_IEnumerable_GetEnumerator_m72CD5A1A7DEE3C52DD488B300657503F5692FF80_gshared (IVectorToIListAdapter_1_t50B879305AD9207CCA2A7E40B85FD20144504382* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -31433,7 +31433,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorViewToIReadOnlyListAdap
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 IVectorViewToIReadOnlyListAdapter_1_System_Collections_Generic_IReadOnlyList_1_get_Item_m274CDAF65BF70ED537DAF4FE1DA32AC5E1584B49_gshared (IVectorViewToIReadOnlyListAdapter_1_t2865DBE4D743E972F940BB01D28298808FA9B5AA* __this, int32_t ___0_index, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 IVectorViewToIReadOnlyListAdapter_1_System_Collections_Generic_IReadOnlyList_1_get_Item_m239857CEA96B625906B25A071A910D6E87994DD1_gshared (IVectorViewToIReadOnlyListAdapter_1_t2B29FD6DDB363FBDE054553A2C1D34F47E3D7327* __this, int32_t ___0_index, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
@@ -31447,8 +31447,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D585894
 	{
 		int32_t L_1 = ___0_index;
 		NullCheck((RuntimeObject*)__this);
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_2;
-		L_2 = InterfaceFuncInvoker1< QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, uint32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, (uint32_t)L_1);
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_2;
+		L_2 = InterfaceFuncInvoker1< QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, uint32_t >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 0), (RuntimeObject*)__this, (uint32_t)L_1);
 		return L_2;
 	}
 	catch(Il2CppExceptionWrapper& e)
@@ -31485,7 +31485,7 @@ IL_0026:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IVectorViewToIReadOnlyListAdapter_1_System_Collections_Generic_IReadOnlyCollection_1_get_Count_mA2F015B0DCCC67A075639FE63FC0744A076CEF88_gshared (IVectorViewToIReadOnlyListAdapter_1_t2865DBE4D743E972F940BB01D28298808FA9B5AA* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IVectorViewToIReadOnlyListAdapter_1_System_Collections_Generic_IReadOnlyCollection_1_get_Count_mED3C0015B78487928A104FFE27B4E7BAECD22CC4_gshared (IVectorViewToIReadOnlyListAdapter_1_t2B29FD6DDB363FBDE054553A2C1D34F47E3D7327* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -31493,7 +31493,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IVectorViewToIReadOnlyListAdapter_1_S
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorViewToIReadOnlyListAdapter_1_System_Collections_Generic_IEnumerable_1_GetEnumerator_m7A490B1B98DA6A502F3BE8881BBA1C5C299CEDB5_gshared (IVectorViewToIReadOnlyListAdapter_1_t2865DBE4D743E972F940BB01D28298808FA9B5AA* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorViewToIReadOnlyListAdapter_1_System_Collections_Generic_IEnumerable_1_GetEnumerator_m427BA7073D2DDA415F4E12B335E8DF4E9B15E503_gshared (IVectorViewToIReadOnlyListAdapter_1_t2B29FD6DDB363FBDE054553A2C1D34F47E3D7327* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -31501,7 +31501,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorViewToIReadOnlyListAdap
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorViewToIReadOnlyListAdapter_1_System_Collections_IEnumerable_GetEnumerator_m624BFB27EDBDDD4A2C910384C3EB7C7FC8A61F75_gshared (IVectorViewToIReadOnlyListAdapter_1_t2865DBE4D743E972F940BB01D28298808FA9B5AA* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IVectorViewToIReadOnlyListAdapter_1_System_Collections_IEnumerable_GetEnumerator_m65FFAB843915D24744FB61512600F4857C1260F7_gshared (IVectorViewToIReadOnlyListAdapter_1_t2B29FD6DDB363FBDE054553A2C1D34F47E3D7327* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));

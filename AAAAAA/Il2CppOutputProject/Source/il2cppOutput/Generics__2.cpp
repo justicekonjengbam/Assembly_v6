@@ -1401,7 +1401,7 @@ struct Action_1_t97C81AF4128411D6CBE793EECF0EC53BCCC7BCC9;
 struct Action_1_tC2EEAE5F3BF71620C088BA7B5ABAA0F46A132858;
 struct Action_1_t72E548755F4BB43C31EDE2E7DAC9E4AEA03432B0;
 struct Action_1_tF34E98A1D6265F1CFEBB4CE8F3706944F943CAE3;
-struct Action_1_t394496A5E34FAFBCF50C1544AC4D785B686EA395;
+struct Action_1_tC905740986B1156A1B815261B64D09D58B893AC0;
 struct Action_1_t4501483487EE874F237B6B25ACC1026A64FBF612;
 struct Action_1_tD0160E105457D40D8673BAC7E6B940058EE57412;
 struct Action_1_t62F664763B59D41E7F88E8AED070DE33EE76DE21;
@@ -3446,20 +3446,20 @@ struct SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_marshaled_com
 	uint64_t ___actionId;
 	Il2CppChar* ___path;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 
 {
 	String_t* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_pinvoke
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_pinvoke
 {
 	char* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_com
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_com
 {
 	Il2CppChar* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
 struct SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC 
 {
@@ -7456,7 +7456,7 @@ struct Action_1_t72E548755F4BB43C31EDE2E7DAC9E4AEA03432B0  : public MulticastDel
 struct Action_1_tF34E98A1D6265F1CFEBB4CE8F3706944F943CAE3  : public MulticastDelegate_t
 {
 };
-struct Action_1_t394496A5E34FAFBCF50C1544AC4D785B686EA395  : public MulticastDelegate_t
+struct Action_1_tC905740986B1156A1B815261B64D09D58B893AC0  : public MulticastDelegate_t
 {
 };
 struct Action_1_t4501483487EE874F237B6B25ACC1026A64FBF612  : public MulticastDelegate_t
@@ -21641,28 +21641,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_mFC896692FB415169BD2A2F6
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-void Action_1_Invoke_mA59C0C24065768C5F4734E831B203CC3D803AE4A_Multicast(Action_1_t394496A5E34FAFBCF50C1544AC4D785B686EA395* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_obj, const RuntimeMethod* method)
+void Action_1_Invoke_mD0C9F77390136429DA51400BC105D6F7016B16F5_Multicast(Action_1_tC905740986B1156A1B815261B64D09D58B893AC0* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_obj, const RuntimeMethod* method)
 {
 	il2cpp_array_size_t length = __this->___delegates->max_length;
 	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates->GetAddressAtUnchecked(0));
 	for (il2cpp_array_size_t i = 0; i < length; i++)
 	{
-		Action_1_t394496A5E34FAFBCF50C1544AC4D785B686EA395* currentDelegate = reinterpret_cast<Action_1_t394496A5E34FAFBCF50C1544AC4D785B686EA395*>(delegatesToInvoke[i]);
-		typedef void (*FunctionPointerType) (RuntimeObject*, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, const RuntimeMethod*);
+		Action_1_tC905740986B1156A1B815261B64D09D58B893AC0* currentDelegate = reinterpret_cast<Action_1_tC905740986B1156A1B815261B64D09D58B893AC0*>(delegatesToInvoke[i]);
+		typedef void (*FunctionPointerType) (RuntimeObject*, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, const RuntimeMethod*);
 		((FunctionPointerType)currentDelegate->___invoke_impl)((Il2CppObject*)currentDelegate->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method));
 	}
 }
-void Action_1_Invoke_mA59C0C24065768C5F4734E831B203CC3D803AE4A_OpenInst(Action_1_t394496A5E34FAFBCF50C1544AC4D785B686EA395* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_obj, const RuntimeMethod* method)
+void Action_1_Invoke_mD0C9F77390136429DA51400BC105D6F7016B16F5_OpenInst(Action_1_tC905740986B1156A1B815261B64D09D58B893AC0* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_obj, const RuntimeMethod* method)
 {
-	typedef void (*FunctionPointerType) (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr)(___0_obj, method);
 }
-void Action_1_Invoke_mA59C0C24065768C5F4734E831B203CC3D803AE4A_OpenStatic(Action_1_t394496A5E34FAFBCF50C1544AC4D785B686EA395* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_obj, const RuntimeMethod* method)
+void Action_1_Invoke_mD0C9F77390136429DA51400BC105D6F7016B16F5_OpenStatic(Action_1_tC905740986B1156A1B815261B64D09D58B893AC0* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_obj, const RuntimeMethod* method)
 {
-	typedef void (*FunctionPointerType) (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, const RuntimeMethod*);
 	((FunctionPointerType)__this->___method_ptr)(___0_obj, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m694FFD5F517D047E6CAA14A313F5884916027ABD_gshared (Action_1_t394496A5E34FAFBCF50C1544AC4D785B686EA395* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_mEC235A68BAB684E5AD2F884A3351F9CB21933982_gshared (Action_1_tC905740986B1156A1B815261B64D09D58B893AC0* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
 {
 	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
 	__this->___method = ___1_method;
@@ -21674,7 +21674,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m694FFD5F517D047E6CAA14A3
 	{
 		bool isOpen = parameterCount == 1;
 		if (isOpen)
-			__this->___invoke_impl = (intptr_t)&Action_1_Invoke_mA59C0C24065768C5F4734E831B203CC3D803AE4A_OpenStatic;
+			__this->___invoke_impl = (intptr_t)&Action_1_Invoke_mD0C9F77390136429DA51400BC105D6F7016B16F5_OpenStatic;
 		else
 			{
 				__this->___invoke_impl = __this->___method_ptr;
@@ -21688,11 +21688,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1__ctor_m694FFD5F517D047E6CAA14A3
 		__this->___invoke_impl = __this->___method_ptr;
 		__this->___method_code = (intptr_t)__this->___m_target;
 	}
-	__this->___extra_arg = (intptr_t)&Action_1_Invoke_mA59C0C24065768C5F4734E831B203CC3D803AE4A_Multicast;
+	__this->___extra_arg = (intptr_t)&Action_1_Invoke_mD0C9F77390136429DA51400BC105D6F7016B16F5_Multicast;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_mA59C0C24065768C5F4734E831B203CC3D803AE4A_gshared (Action_1_t394496A5E34FAFBCF50C1544AC4D785B686EA395* __this, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___0_obj, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action_1_Invoke_mD0C9F77390136429DA51400BC105D6F7016B16F5_gshared (Action_1_tC905740986B1156A1B815261B64D09D58B893AC0* __this, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___0_obj, const RuntimeMethod* method) 
 {
-	typedef void (*FunctionPointerType) (RuntimeObject*, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257, const RuntimeMethod*);
+	typedef void (*FunctionPointerType) (RuntimeObject*, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4, const RuntimeMethod*);
 	((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_obj, reinterpret_cast<RuntimeMethod*>(__this->___method));
 }
 #ifdef __clang__

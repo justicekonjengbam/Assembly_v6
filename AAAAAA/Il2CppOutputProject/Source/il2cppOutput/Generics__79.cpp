@@ -37,7 +37,6 @@ struct Action_1_tA4CC4B05C836AB92F811D67AC960A6ED20CCCB7B;
 struct Dictionary_2_t6682243BDABA638FCBE4F1D9875B5B1455A7686E;
 struct IEnumerable_1_tCE758D940790D6D0D56B457E522C195F8C413AF2;
 struct InputStateHistory_1_tFE6497AA1E7DC5B54CA3C00976576A7E88C77798;
-struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
 struct List_1_t41896DF347A129D13205BBFADE03DFB21E05E459;
 struct List_1_tC0E7595725AFEF62394C64B77712190FBAC6C2C5;
 struct List_1_tD15C6A84B4DC9C37F92C3567D6BE829E26172ABA;
@@ -3258,7 +3257,7 @@ struct InternalEnumerator_1_t49A7316D05D91CFDD11253B1ADFDB8558ADC0D5C_marshaled_
 	int32_t ___idx;
 };
 #endif
-struct InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33 
+struct InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E 
 {
 	RuntimeArray* ___array;
 	int32_t ___idx;
@@ -4837,20 +4836,20 @@ struct FormatParam_t76A31D70C9964751A9AAFD4CE6951437E6C1CD8E_marshaled_com
 	int32_t ____int32;
 	Il2CppChar* ____string;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 
 {
 	String_t* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_pinvoke
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_pinvoke
 {
 	char* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_com
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_com
 {
 	Il2CppChar* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
 struct LowerCaseMapping_t3E26F9E4ED2CCDA7404B4E4C123B0175FF5F8FF1 
 {
@@ -9359,13 +9358,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PointerLocation_t4E582463D283A22822997C2841D5
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PointerLocation_t4E582463D283A22822997C2841D5E1A30D16FCF6 InternalEnumerator_1_get_Current_mBE24ECD5DEA77A95C73968C2BA20CCB19B66158D_gshared (InternalEnumerator_1_t46038D7AB1FEB7EE750C62D0AF06F6161BBFB451* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m0450CA1E610C6FAF3777B652FB7453DF12A8D8D3_gshared (InternalEnumerator_1_t46038D7AB1FEB7EE750C62D0AF06F6161BBFB451* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m15B827BD30F7EE952432C824448CD93CB9AD1350_gshared (InternalEnumerator_1_t46038D7AB1FEB7EE750C62D0AF06F6161BBFB451* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1__ctor_m5952513ACBB3C44388240B5B5D4C8A81EEA4D4E3_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, RuntimeArray* ___0_array, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_Dispose_mC4A2EE71E407FD286146B9799AE1EBA9AB79D838_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEnumerator_1_MoveNext_mC350684FB0B58987848EA91BB189607961220545_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 Array_InternalArray__get_Item_TisQRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_m6D1096B27C7B9F306FE3DF1801D042F6A2A5183C_gshared (RuntimeArray* __this, int32_t ___0_index, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 InternalEnumerator_1_get_Current_mD0BCF6CF3DF5501662A61D6C198C68059BBDB7EB_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mB96B753AE9F95150814B610B3765B9CDF53A43CB_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Current_mFB7DC6144F05945FB3D6BFAB3A63AD2A9ACC65DF_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1__ctor_m6CA0A2802CD1008AE9642AF680D60D8C7F2A9AAD_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, RuntimeArray* ___0_array, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_Dispose_mF643EA735A954214E387D32D7D16625365AC227B_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEnumerator_1_MoveNext_m8E87332F92B51E762AC4A6C9119C21544D849034_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 Array_InternalArray__get_Item_TisQRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_m5EBC1954C577A0D58C1D36587FA27BE6AB44894E_gshared (RuntimeArray* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 InternalEnumerator_1_get_Current_m7C34CAF55FC56D0C2E91ADB163F2FDD0FE7099D4_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mD4B200B6B4876ADEB8EA5D5F5F1F2E91D244C24F_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m0CA01D24B4E4D09168ABD79DC8B6159D15C1115F_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1__ctor_m803E8505DAC6B7497AA7035A4363BF4AEAAD0153_gshared (InternalEnumerator_1_tA16C65D6022C467EF523E755891765F78B7D6503* __this, RuntimeArray* ___0_array, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_Dispose_m016B56FABFC685E1BCE85E69D23C2EBB17BBC30A_gshared (InternalEnumerator_1_tA16C65D6022C467EF523E755891765F78B7D6503* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEnumerator_1_MoveNext_mDCC4078A25AF2DCCC0399B28259B219FF1A2336D_gshared (InternalEnumerator_1_tA16C65D6022C467EF523E755891765F78B7D6503* __this, const RuntimeMethod* method) ;
@@ -13460,33 +13459,33 @@ inline RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Cu
 {
 	return ((  RuntimeObject* (*) (InternalEnumerator_1_t46038D7AB1FEB7EE750C62D0AF06F6161BBFB451*, const RuntimeMethod*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m15B827BD30F7EE952432C824448CD93CB9AD1350_gshared)(__this, method);
 }
-inline void InternalEnumerator_1__ctor_m5952513ACBB3C44388240B5B5D4C8A81EEA4D4E3 (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, RuntimeArray* ___0_array, const RuntimeMethod* method)
+inline void InternalEnumerator_1__ctor_m6CA0A2802CD1008AE9642AF680D60D8C7F2A9AAD (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, RuntimeArray* ___0_array, const RuntimeMethod* method)
 {
-	((  void (*) (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*, RuntimeArray*, const RuntimeMethod*))InternalEnumerator_1__ctor_m5952513ACBB3C44388240B5B5D4C8A81EEA4D4E3_gshared)(__this, ___0_array, method);
+	((  void (*) (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*, RuntimeArray*, const RuntimeMethod*))InternalEnumerator_1__ctor_m6CA0A2802CD1008AE9642AF680D60D8C7F2A9AAD_gshared)(__this, ___0_array, method);
 }
-inline void InternalEnumerator_1_Dispose_mC4A2EE71E407FD286146B9799AE1EBA9AB79D838 (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method)
+inline void InternalEnumerator_1_Dispose_mF643EA735A954214E387D32D7D16625365AC227B (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method)
 {
-	((  void (*) (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*, const RuntimeMethod*))InternalEnumerator_1_Dispose_mC4A2EE71E407FD286146B9799AE1EBA9AB79D838_gshared)(__this, method);
+	((  void (*) (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*, const RuntimeMethod*))InternalEnumerator_1_Dispose_mF643EA735A954214E387D32D7D16625365AC227B_gshared)(__this, method);
 }
-inline bool InternalEnumerator_1_MoveNext_mC350684FB0B58987848EA91BB189607961220545 (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method)
+inline bool InternalEnumerator_1_MoveNext_m8E87332F92B51E762AC4A6C9119C21544D849034 (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*, const RuntimeMethod*))InternalEnumerator_1_MoveNext_mC350684FB0B58987848EA91BB189607961220545_gshared)(__this, method);
+	return ((  bool (*) (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*, const RuntimeMethod*))InternalEnumerator_1_MoveNext_m8E87332F92B51E762AC4A6C9119C21544D849034_gshared)(__this, method);
 }
-inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 Array_InternalArray__get_Item_TisQRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_m6D1096B27C7B9F306FE3DF1801D042F6A2A5183C (RuntimeArray* __this, int32_t ___0_index, const RuntimeMethod* method)
+inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 Array_InternalArray__get_Item_TisQRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_m5EBC1954C577A0D58C1D36587FA27BE6AB44894E (RuntimeArray* __this, int32_t ___0_index, const RuntimeMethod* method)
 {
-	return ((  QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 (*) (RuntimeArray*, int32_t, const RuntimeMethod*))Array_InternalArray__get_Item_TisQRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_m6D1096B27C7B9F306FE3DF1801D042F6A2A5183C_gshared)(__this, ___0_index, method);
+	return ((  QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 (*) (RuntimeArray*, int32_t, const RuntimeMethod*))Array_InternalArray__get_Item_TisQRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_m5EBC1954C577A0D58C1D36587FA27BE6AB44894E_gshared)(__this, ___0_index, method);
 }
-inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 InternalEnumerator_1_get_Current_mD0BCF6CF3DF5501662A61D6C198C68059BBDB7EB (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method)
+inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 InternalEnumerator_1_get_Current_m7C34CAF55FC56D0C2E91ADB163F2FDD0FE7099D4 (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method)
 {
-	return ((  QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 (*) (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*, const RuntimeMethod*))InternalEnumerator_1_get_Current_mD0BCF6CF3DF5501662A61D6C198C68059BBDB7EB_gshared)(__this, method);
+	return ((  QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 (*) (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*, const RuntimeMethod*))InternalEnumerator_1_get_Current_m7C34CAF55FC56D0C2E91ADB163F2FDD0FE7099D4_gshared)(__this, method);
 }
-inline void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mB96B753AE9F95150814B610B3765B9CDF53A43CB (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method)
+inline void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mD4B200B6B4876ADEB8EA5D5F5F1F2E91D244C24F (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method)
 {
-	((  void (*) (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*, const RuntimeMethod*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_mB96B753AE9F95150814B610B3765B9CDF53A43CB_gshared)(__this, method);
+	((  void (*) (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*, const RuntimeMethod*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_mD4B200B6B4876ADEB8EA5D5F5F1F2E91D244C24F_gshared)(__this, method);
 }
-inline RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Current_mFB7DC6144F05945FB3D6BFAB3A63AD2A9ACC65DF (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method)
+inline RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m0CA01D24B4E4D09168ABD79DC8B6159D15C1115F (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*, const RuntimeMethod*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_mFB7DC6144F05945FB3D6BFAB3A63AD2A9ACC65DF_gshared)(__this, method);
+	return ((  RuntimeObject* (*) (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*, const RuntimeMethod*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m0CA01D24B4E4D09168ABD79DC8B6159D15C1115F_gshared)(__this, method);
 }
 inline void InternalEnumerator_1__ctor_m803E8505DAC6B7497AA7035A4363BF4AEAAD0153 (InternalEnumerator_1_tA16C65D6022C467EF523E755891765F78B7D6503* __this, RuntimeArray* ___0_array, const RuntimeMethod* method)
 {
@@ -38574,7 +38573,7 @@ IL2CPP_EXTERN_C  RuntimeObject* InternalEnumerator_1_System_Collections_IEnumera
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1__ctor_m5952513ACBB3C44388240B5B5D4C8A81EEA4D4E3_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, RuntimeArray* ___0_array, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1__ctor_m6CA0A2802CD1008AE9642AF680D60D8C7F2A9AAD_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, RuntimeArray* ___0_array, const RuntimeMethod* method) 
 {
 	{
 		RuntimeArray* L_0 = ___0_array;
@@ -38584,27 +38583,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1__ctor_m5952513ACBB3
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void InternalEnumerator_1__ctor_m5952513ACBB3C44388240B5B5D4C8A81EEA4D4E3_AdjustorThunk (RuntimeObject* __this, RuntimeArray* ___0_array, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void InternalEnumerator_1__ctor_m6CA0A2802CD1008AE9642AF680D60D8C7F2A9AAD_AdjustorThunk (RuntimeObject* __this, RuntimeArray* ___0_array, const RuntimeMethod* method)
 {
-	InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* _thisAdjusted;
+	InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*>(__this + _offset);
-	InternalEnumerator_1__ctor_m5952513ACBB3C44388240B5B5D4C8A81EEA4D4E3(_thisAdjusted, ___0_array, method);
+	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*>(__this + _offset);
+	InternalEnumerator_1__ctor_m6CA0A2802CD1008AE9642AF680D60D8C7F2A9AAD(_thisAdjusted, ___0_array, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_Dispose_mC4A2EE71E407FD286146B9799AE1EBA9AB79D838_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_Dispose_mF643EA735A954214E387D32D7D16625365AC227B_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void InternalEnumerator_1_Dispose_mC4A2EE71E407FD286146B9799AE1EBA9AB79D838_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void InternalEnumerator_1_Dispose_mF643EA735A954214E387D32D7D16625365AC227B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* _thisAdjusted;
+	InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*>(__this + _offset);
-	InternalEnumerator_1_Dispose_mC4A2EE71E407FD286146B9799AE1EBA9AB79D838(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*>(__this + _offset);
+	InternalEnumerator_1_Dispose_mF643EA735A954214E387D32D7D16625365AC227B(_thisAdjusted, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEnumerator_1_MoveNext_mC350684FB0B58987848EA91BB189607961220545_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool InternalEnumerator_1_MoveNext_m8E87332F92B51E762AC4A6C9119C21544D849034_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) 
 {
 	int32_t V_0 = 0;
 	{
@@ -38644,16 +38643,16 @@ IL_003c:
 		return (bool)0;
 	}
 }
-IL2CPP_EXTERN_C  bool InternalEnumerator_1_MoveNext_mC350684FB0B58987848EA91BB189607961220545_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool InternalEnumerator_1_MoveNext_m8E87332F92B51E762AC4A6C9119C21544D849034_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* _thisAdjusted;
+	InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*>(__this + _offset);
 	bool _returnValue;
-	_returnValue = InternalEnumerator_1_MoveNext_mC350684FB0B58987848EA91BB189607961220545(_thisAdjusted, method);
+	_returnValue = InternalEnumerator_1_MoveNext_m8E87332F92B51E762AC4A6C9119C21544D849034(_thisAdjusted, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 InternalEnumerator_1_get_Current_mD0BCF6CF3DF5501662A61D6C198C68059BBDB7EB_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 InternalEnumerator_1_get_Current_m7C34CAF55FC56D0C2E91ADB163F2FDD0FE7099D4_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0 = __this->___idx;
@@ -38691,51 +38690,51 @@ IL_0029:
 		L_6 = Array_get_Length_m361285FB7CF44045DC369834D1CD01F72F94EF57(L_5, NULL);
 		int32_t L_7 = __this->___idx;
 		NullCheck(L_4);
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_8;
-		L_8 = Array_InternalArray__get_Item_TisQRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_m6D1096B27C7B9F306FE3DF1801D042F6A2A5183C(L_4, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_6, 1)), L_7)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_8;
+		L_8 = Array_InternalArray__get_Item_TisQRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_m5EBC1954C577A0D58C1D36587FA27BE6AB44894E(L_4, ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_6, 1)), L_7)), il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		return L_8;
 	}
 }
-IL2CPP_EXTERN_C  QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 InternalEnumerator_1_get_Current_mD0BCF6CF3DF5501662A61D6C198C68059BBDB7EB_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 InternalEnumerator_1_get_Current_m7C34CAF55FC56D0C2E91ADB163F2FDD0FE7099D4_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* _thisAdjusted;
+	InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*>(__this + _offset);
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 _returnValue;
-	_returnValue = InternalEnumerator_1_get_Current_mD0BCF6CF3DF5501662A61D6C198C68059BBDB7EB(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*>(__this + _offset);
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 _returnValue;
+	_returnValue = InternalEnumerator_1_get_Current_m7C34CAF55FC56D0C2E91ADB163F2FDD0FE7099D4(_thisAdjusted, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mB96B753AE9F95150814B610B3765B9CDF53A43CB_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mD4B200B6B4876ADEB8EA5D5F5F1F2E91D244C24F_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) 
 {
 	{
 		__this->___idx = ((int32_t)-2);
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mB96B753AE9F95150814B610B3765B9CDF53A43CB_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void InternalEnumerator_1_System_Collections_IEnumerator_Reset_mD4B200B6B4876ADEB8EA5D5F5F1F2E91D244C24F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* _thisAdjusted;
+	InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*>(__this + _offset);
-	InternalEnumerator_1_System_Collections_IEnumerator_Reset_mB96B753AE9F95150814B610B3765B9CDF53A43CB(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*>(__this + _offset);
+	InternalEnumerator_1_System_Collections_IEnumerator_Reset_mD4B200B6B4876ADEB8EA5D5F5F1F2E91D244C24F(_thisAdjusted, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Current_mFB7DC6144F05945FB3D6BFAB3A63AD2A9ACC65DF_gshared (InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m0CA01D24B4E4D09168ABD79DC8B6159D15C1115F_gshared (InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* __this, const RuntimeMethod* method) 
 {
 	{
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_0;
-		L_0 = InternalEnumerator_1_get_Current_mD0BCF6CF3DF5501662A61D6C198C68059BBDB7EB(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_1 = L_0;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_0;
+		L_0 = InternalEnumerator_1_get_Current_m7C34CAF55FC56D0C2E91ADB163F2FDD0FE7099D4(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_1 = L_0;
 		RuntimeObject* L_2 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2), &L_1);
 		return L_2;
 	}
 }
-IL2CPP_EXTERN_C  RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Current_mFB7DC6144F05945FB3D6BFAB3A63AD2A9ACC65DF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  RuntimeObject* InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m0CA01D24B4E4D09168ABD79DC8B6159D15C1115F_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33* _thisAdjusted;
+	InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_tDD729C9E8BB7EF53E64DD301F96928E650E5CB33*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<InternalEnumerator_1_t8776436B3E5600A41B292486BB0ED3A9EBD6A29E*>(__this + _offset);
 	RuntimeObject* _returnValue;
-	_returnValue = InternalEnumerator_1_System_Collections_IEnumerator_get_Current_mFB7DC6144F05945FB3D6BFAB3A63AD2A9ACC65DF(_thisAdjusted, method);
+	_returnValue = InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m0CA01D24B4E4D09168ABD79DC8B6159D15C1115F(_thisAdjusted, method);
 	return _returnValue;
 }
 #ifdef __clang__

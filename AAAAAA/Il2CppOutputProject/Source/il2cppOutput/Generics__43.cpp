@@ -93,7 +93,7 @@ struct List_1_t9F88320EFB350BE4828A3B8FCEA1BAA160B4430F;
 struct List_1_t7EFF0B311F5CDB60CB2C7D44131140FE78430D9C;
 struct List_1_t8E88137DBF3559DC2CF17853F82E9C24C134B291;
 struct List_1_tDB638DEC3E456A2F6AC959727396B92238AD5D42;
-struct List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD;
+struct List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E;
 struct List_1_tDB6FA8EDA7A26227B5CA100203EF7BAFA0FDBDDF;
 struct List_1_tAF3B3F03351330B5C2EA012DB4C7E417DC6551AB;
 struct List_1_t7818E1D7778AB31F71911E5A28F7B9D349539ABD;
@@ -200,7 +200,7 @@ struct OutputU5BU5D_tAA0566FEDC8806CBEE22C29C9DE3A7FCAD4A2DF2;
 struct SortedColumnStateU5BU5D_tD76039072018E258494F81C8D50F35EAC97118E6;
 struct OnScreenDeviceInfoU5BU5D_t0C70881971941DEFDD18CFFD3E4133B5CA0B7F30;
 struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813;
-struct QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5;
+struct QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27;
 struct SingleRangeU5BU5D_t9F938F2249733D85C4F97842A125778D69A843D6;
 struct RenderNodeDataU5BU5D_t73A42A22EC1354DE8A25C10A2E408E1DA7C41B7E;
 struct AssemblyStepU5BU5D_t646A4D76D2670D76BB1E3C2F8DE76E0C737BD685;
@@ -350,7 +350,7 @@ struct InputU5BU5D_t5259FC42F02A4E5953F0B8D1148D965524A11096;
 struct OutputU5BU5D_tAA0566FEDC8806CBEE22C29C9DE3A7FCAD4A2DF2;
 struct SortedColumnStateU5BU5D_tD76039072018E258494F81C8D50F35EAC97118E6;
 struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813;
-struct QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5;
+struct QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27;
 struct SingleRangeU5BU5D_t9F938F2249733D85C4F97842A125778D69A843D6;
 struct RenderNodeDataU5BU5D_t73A42A22EC1354DE8A25C10A2E408E1DA7C41B7E;
 struct AssemblyStepU5BU5D_t646A4D76D2670D76BB1E3C2F8DE76E0C737BD685;
@@ -614,9 +614,9 @@ struct List_1_tDB638DEC3E456A2F6AC959727396B92238AD5D42  : public RuntimeObject
 	int32_t ____version;
 	RuntimeObject* ____syncRoot;
 };
-struct List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD  : public RuntimeObject
+struct List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E  : public RuntimeObject
 {
-	QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ____items;
+	QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ____items;
 	int32_t ____size;
 	int32_t ____version;
 	RuntimeObject* ____syncRoot;
@@ -1651,20 +1651,20 @@ struct SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_marshaled_com
 	uint64_t ___actionId;
 	Il2CppChar* ___path;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 
 {
 	String_t* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_pinvoke
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_pinvoke
 {
 	char* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_com
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_com
 {
 	Il2CppChar* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
 struct SingleRange_tB50C1C2B62BDC445BDBA41FD3CDC77A45A211BBC 
 {
@@ -2199,12 +2199,12 @@ struct Enumerator_t328EB8CADBA1D228DAF02EC430C5B53EB3C04C04
 	int32_t ____version;
 	SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 ____current;
 };
-struct Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6 
+struct Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF 
 {
-	List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* ____list;
+	List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* ____list;
 	int32_t ____index;
 	int32_t ____version;
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ____current;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ____current;
 };
 struct Enumerator_t59E02176F2EE4E264A4750514AA127E2E21FF5D9 
 {
@@ -4811,9 +4811,9 @@ struct List_1_tDB638DEC3E456A2F6AC959727396B92238AD5D42_StaticFields
 {
 	SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813* ___s_emptyArray;
 };
-struct List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD_StaticFields
+struct List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E_StaticFields
 {
-	QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* ___s_emptyArray;
+	QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* ___s_emptyArray;
 };
 struct List_1_tDB6FA8EDA7A26227B5CA100203EF7BAFA0FDBDDF_StaticFields
 {
@@ -6279,43 +6279,43 @@ struct SerializedBindingU5BU5D_tE1C277A72A221B22A8BB8EFF188B6B7905F46813  : publ
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___path), (void*)NULL);
 	}
 };
-struct QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5  : public RuntimeArray
+struct QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27  : public RuntimeArray
 {
-	ALIGN_FIELD (8) QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 m_Items[1];
+	ALIGN_FIELD (8) QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 m_Items[1];
 
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 GetAt(il2cpp_array_size_t index) const
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 GetAt(il2cpp_array_size_t index) const
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items[index];
 	}
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257* GetAddressAt(il2cpp_array_size_t index)
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4* GetAddressAt(il2cpp_array_size_t index)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		return m_Items + index;
 	}
-	inline void SetAt(il2cpp_array_size_t index, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 value)
+	inline void SetAt(il2cpp_array_size_t index, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 value)
 	{
 		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___qrText), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___partPrefabs), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___modelObject), (void*)NULL);
 		#endif
 	}
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 GetAtUnchecked(il2cpp_array_size_t index) const
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 GetAtUnchecked(il2cpp_array_size_t index) const
 	{
 		return m_Items[index];
 	}
-	inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4* GetAddressAtUnchecked(il2cpp_array_size_t index)
 	{
 		return m_Items + index;
 	}
-	inline void SetAtUnchecked(il2cpp_array_size_t index, QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 value)
+	inline void SetAtUnchecked(il2cpp_array_size_t index, QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 value)
 	{
 		m_Items[index] = value;
 		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___qrText), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___partPrefabs), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&((m_Items + index)->___modelObject), (void*)NULL);
 		#endif
 	}
 };
@@ -8484,13 +8484,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m94F87404DF6C2EB5E23
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 Enumerator_get_Current_m964B91B88CA6655FDA1B67AC0D2CC25F4FF6FF47_gshared_inline (Enumerator_t328EB8CADBA1D228DAF02EC430C5B53EB3C04C04* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m2B738548B8523AD4745DA4FCC532C5616176BF3A_gshared (Enumerator_t328EB8CADBA1D228DAF02EC430C5B53EB3C04C04* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_System_Collections_IEnumerator_Reset_m9560BD566D6FC5DF756D57CC4EA1379659B6655D_gshared (Enumerator_t328EB8CADBA1D228DAF02EC430C5B53EB3C04C04* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m681CAFC3FF3A6311D792EBCBD1C0211A49CECABA_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* ___0_list, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m193499F7283CD5185670DAA0F9651621B4218F69_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNextRare_m161E856A07E0AEA087437768374E07F2D6EAA1D6_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m0DC04C63849950418FD93866CA55B05820F1F19B_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) ;
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 Enumerator_get_Current_m0CB813287BEE64E274A153C2853712B075A01307_gshared_inline (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m12F1471EDBCC86FE85BD1682DD818F10CF58F4DF_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) ;
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_System_Collections_IEnumerator_Reset_m300D60070AC9C67FC7F5332792B7B3FC2042CE23_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_mBFD57BED8680578BB7DFBC131004FA4B30604F1C_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* ___0_list, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m334A70E5BBC5C751350DC3937D3E103D001117F6_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNextRare_mFED160F1F675ED8481A334B4DA1E8F23DDE44342_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mECBF064694237693685D91717F54B3E524892DFA_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 Enumerator_get_Current_m3C06CDAE5AD486B3C11FD6E876F7A4005692812D_gshared_inline (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m9B64D73BE96F92B232BCC35D21E601C3AC98417B_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_System_Collections_IEnumerator_Reset_mD0B632E2834747B8E8B9C727D5FFACAC6958DB38_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m159144864209387AA18DEABE7B7985388F8F3452_gshared (Enumerator_t59E02176F2EE4E264A4750514AA127E2E21FF5D9* __this, List_1_tDB6FA8EDA7A26227B5CA100203EF7BAFA0FDBDDF* ___0_list, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_mA0B4D4F8E92B4540729788F1DD7DEC6992283BE0_gshared (Enumerator_t59E02176F2EE4E264A4750514AA127E2E21FF5D9* __this, const RuntimeMethod* method) ;
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNextRare_m5A165A59BCAC48344B226B3725D624D46A25336E_gshared (Enumerator_t59E02176F2EE4E264A4750514AA127E2E21FF5D9* __this, const RuntimeMethod* method) ;
@@ -10225,33 +10225,33 @@ inline void Enumerator_System_Collections_IEnumerator_Reset_m9560BD566D6FC5DF756
 {
 	((  void (*) (Enumerator_t328EB8CADBA1D228DAF02EC430C5B53EB3C04C04*, const RuntimeMethod*))Enumerator_System_Collections_IEnumerator_Reset_m9560BD566D6FC5DF756D57CC4EA1379659B6655D_gshared)(__this, method);
 }
-inline void Enumerator__ctor_m681CAFC3FF3A6311D792EBCBD1C0211A49CECABA (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* ___0_list, const RuntimeMethod* method)
+inline void Enumerator__ctor_mBFD57BED8680578BB7DFBC131004FA4B30604F1C (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* ___0_list, const RuntimeMethod* method)
 {
-	((  void (*) (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*, List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD*, const RuntimeMethod*))Enumerator__ctor_m681CAFC3FF3A6311D792EBCBD1C0211A49CECABA_gshared)(__this, ___0_list, method);
+	((  void (*) (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*, List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E*, const RuntimeMethod*))Enumerator__ctor_mBFD57BED8680578BB7DFBC131004FA4B30604F1C_gshared)(__this, ___0_list, method);
 }
-inline void Enumerator_Dispose_m193499F7283CD5185670DAA0F9651621B4218F69 (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method)
+inline void Enumerator_Dispose_m334A70E5BBC5C751350DC3937D3E103D001117F6 (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method)
 {
-	((  void (*) (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*, const RuntimeMethod*))Enumerator_Dispose_m193499F7283CD5185670DAA0F9651621B4218F69_gshared)(__this, method);
+	((  void (*) (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*, const RuntimeMethod*))Enumerator_Dispose_m334A70E5BBC5C751350DC3937D3E103D001117F6_gshared)(__this, method);
 }
-inline bool Enumerator_MoveNextRare_m161E856A07E0AEA087437768374E07F2D6EAA1D6 (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method)
+inline bool Enumerator_MoveNextRare_mFED160F1F675ED8481A334B4DA1E8F23DDE44342 (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*, const RuntimeMethod*))Enumerator_MoveNextRare_m161E856A07E0AEA087437768374E07F2D6EAA1D6_gshared)(__this, method);
+	return ((  bool (*) (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*, const RuntimeMethod*))Enumerator_MoveNextRare_mFED160F1F675ED8481A334B4DA1E8F23DDE44342_gshared)(__this, method);
 }
-inline bool Enumerator_MoveNext_m0DC04C63849950418FD93866CA55B05820F1F19B (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method)
+inline bool Enumerator_MoveNext_mECBF064694237693685D91717F54B3E524892DFA (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method)
 {
-	return ((  bool (*) (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*, const RuntimeMethod*))Enumerator_MoveNext_m0DC04C63849950418FD93866CA55B05820F1F19B_gshared)(__this, method);
+	return ((  bool (*) (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*, const RuntimeMethod*))Enumerator_MoveNext_mECBF064694237693685D91717F54B3E524892DFA_gshared)(__this, method);
 }
-inline QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 Enumerator_get_Current_m0CB813287BEE64E274A153C2853712B075A01307_inline (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method)
+inline QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 Enumerator_get_Current_m3C06CDAE5AD486B3C11FD6E876F7A4005692812D_inline (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method)
 {
-	return ((  QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 (*) (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*, const RuntimeMethod*))Enumerator_get_Current_m0CB813287BEE64E274A153C2853712B075A01307_gshared_inline)(__this, method);
+	return ((  QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 (*) (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*, const RuntimeMethod*))Enumerator_get_Current_m3C06CDAE5AD486B3C11FD6E876F7A4005692812D_gshared_inline)(__this, method);
 }
-inline RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m12F1471EDBCC86FE85BD1682DD818F10CF58F4DF (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method)
+inline RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m9B64D73BE96F92B232BCC35D21E601C3AC98417B (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*, const RuntimeMethod*))Enumerator_System_Collections_IEnumerator_get_Current_m12F1471EDBCC86FE85BD1682DD818F10CF58F4DF_gshared)(__this, method);
+	return ((  RuntimeObject* (*) (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*, const RuntimeMethod*))Enumerator_System_Collections_IEnumerator_get_Current_m9B64D73BE96F92B232BCC35D21E601C3AC98417B_gshared)(__this, method);
 }
-inline void Enumerator_System_Collections_IEnumerator_Reset_m300D60070AC9C67FC7F5332792B7B3FC2042CE23 (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method)
+inline void Enumerator_System_Collections_IEnumerator_Reset_mD0B632E2834747B8E8B9C727D5FFACAC6958DB38 (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method)
 {
-	((  void (*) (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*, const RuntimeMethod*))Enumerator_System_Collections_IEnumerator_Reset_m300D60070AC9C67FC7F5332792B7B3FC2042CE23_gshared)(__this, method);
+	((  void (*) (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*, const RuntimeMethod*))Enumerator_System_Collections_IEnumerator_Reset_mD0B632E2834747B8E8B9C727D5FFACAC6958DB38_gshared)(__this, method);
 }
 inline void Enumerator__ctor_m159144864209387AA18DEABE7B7985388F8F3452 (Enumerator_t59E02176F2EE4E264A4750514AA127E2E21FF5D9* __this, List_1_tDB6FA8EDA7A26227B5CA100203EF7BAFA0FDBDDF* ___0_list, const RuntimeMethod* method)
 {
@@ -21495,50 +21495,50 @@ IL2CPP_EXTERN_C  void Enumerator_System_Collections_IEnumerator_Reset_m9560BD566
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_m681CAFC3FF3A6311D792EBCBD1C0211A49CECABA_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* ___0_list, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator__ctor_mBFD57BED8680578BB7DFBC131004FA4B30604F1C_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* ___0_list, const RuntimeMethod* method) 
 {
 	{
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_0 = ___0_list;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_0 = ___0_list;
 		__this->____list = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->____list), (void*)L_0);
 		__this->____index = 0;
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_1 = ___0_list;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_1 = ___0_list;
 		NullCheck(L_1);
 		int32_t L_2 = L_1->____version;
 		__this->____version = L_2;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257* L_3 = (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257*)(&__this->____current);
-		il2cpp_codegen_initobj(L_3, sizeof(QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4* L_3 = (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4*)(&__this->____current);
+		il2cpp_codegen_initobj(L_3, sizeof(QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4));
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void Enumerator__ctor_m681CAFC3FF3A6311D792EBCBD1C0211A49CECABA_AdjustorThunk (RuntimeObject* __this, List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* ___0_list, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void Enumerator__ctor_mBFD57BED8680578BB7DFBC131004FA4B30604F1C_AdjustorThunk (RuntimeObject* __this, List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* ___0_list, const RuntimeMethod* method)
 {
-	Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* _thisAdjusted;
+	Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*>(__this + _offset);
-	Enumerator__ctor_m681CAFC3FF3A6311D792EBCBD1C0211A49CECABA(_thisAdjusted, ___0_list, method);
+	_thisAdjusted = reinterpret_cast<Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*>(__this + _offset);
+	Enumerator__ctor_mBFD57BED8680578BB7DFBC131004FA4B30604F1C(_thisAdjusted, ___0_list, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m193499F7283CD5185670DAA0F9651621B4218F69_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_Dispose_m334A70E5BBC5C751350DC3937D3E103D001117F6_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void Enumerator_Dispose_m193499F7283CD5185670DAA0F9651621B4218F69_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void Enumerator_Dispose_m334A70E5BBC5C751350DC3937D3E103D001117F6_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* _thisAdjusted;
+	Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*>(__this + _offset);
-	Enumerator_Dispose_m193499F7283CD5185670DAA0F9651621B4218F69(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*>(__this + _offset);
+	Enumerator_Dispose_m334A70E5BBC5C751350DC3937D3E103D001117F6(_thisAdjusted, method);
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m0DC04C63849950418FD93866CA55B05820F1F19B_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_mECBF064694237693685D91717F54B3E524892DFA_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) 
 {
-	List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* V_0 = NULL;
+	List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* V_0 = NULL;
 	{
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_0 = __this->____list;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_0 = __this->____list;
 		V_0 = L_0;
 		int32_t L_1 = __this->____version;
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_2 = V_0;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_2 = V_0;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->____version;
 		if ((!(((uint32_t)L_1) == ((uint32_t)L_3))))
@@ -21548,7 +21548,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m0DC04C63849950418FD
 	}
 	{
 		int32_t L_4 = __this->____index;
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_5 = V_0;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_5 = V_0;
 		NullCheck(L_5);
 		int32_t L_6 = L_5->____size;
 		if ((!(((uint32_t)L_4) < ((uint32_t)L_6))))
@@ -21557,17 +21557,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m0DC04C63849950418FD
 		}
 	}
 	{
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_7 = V_0;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_7 = V_0;
 		NullCheck(L_7);
-		QRKitMappingU5BU5D_t84FDF58A4BF798E75C55190E4EA768B8B3C611D5* L_8 = L_7->____items;
+		QRCodeMappingU5BU5D_t39AF702DF236F2D79A9BE7DF59801AD6A165FC27* L_8 = L_7->____items;
 		int32_t L_9 = __this->____index;
 		NullCheck(L_8);
 		int32_t L_10 = L_9;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_11 = (L_8)->GetAt(static_cast<il2cpp_array_size_t>(L_10));
 		__this->____current = L_11;
 		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____current))->___qrText), (void*)NULL);
 		#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____current))->___partPrefabs), (void*)NULL);
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->____current))->___modelObject), (void*)NULL);
 		#endif
 		int32_t L_12 = __this->____index;
 		__this->____index = ((int32_t)il2cpp_codegen_add(L_12, 1));
@@ -21577,24 +21577,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNext_m0DC04C63849950418FD
 IL_004a:
 	{
 		bool L_13;
-		L_13 = Enumerator_MoveNextRare_m161E856A07E0AEA087437768374E07F2D6EAA1D6(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
+		L_13 = Enumerator_MoveNextRare_mFED160F1F675ED8481A334B4DA1E8F23DDE44342(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 4));
 		return L_13;
 	}
 }
-IL2CPP_EXTERN_C  bool Enumerator_MoveNext_m0DC04C63849950418FD93866CA55B05820F1F19B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool Enumerator_MoveNext_mECBF064694237693685D91717F54B3E524892DFA_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* _thisAdjusted;
+	Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*>(__this + _offset);
 	bool _returnValue;
-	_returnValue = Enumerator_MoveNext_m0DC04C63849950418FD93866CA55B05820F1F19B(_thisAdjusted, method);
+	_returnValue = Enumerator_MoveNext_mECBF064694237693685D91717F54B3E524892DFA(_thisAdjusted, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNextRare_m161E856A07E0AEA087437768374E07F2D6EAA1D6_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNextRare_mFED160F1F675ED8481A334B4DA1E8F23DDE44342_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0 = __this->____version;
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_1 = __this->____list;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_1 = __this->____list;
 		NullCheck(L_1);
 		int32_t L_2 = L_1->____version;
 		if ((((int32_t)L_0) == ((int32_t)L_2)))
@@ -21608,41 +21608,41 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Enumerator_MoveNextRare_m161E856A07E0AEA
 
 IL_0018:
 	{
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_3 = __this->____list;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_3 = __this->____list;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->____size;
 		__this->____index = ((int32_t)il2cpp_codegen_add(L_4, 1));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257* L_5 = (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257*)(&__this->____current);
-		il2cpp_codegen_initobj(L_5, sizeof(QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4* L_5 = (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4*)(&__this->____current);
+		il2cpp_codegen_initobj(L_5, sizeof(QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4));
 		return (bool)0;
 	}
 }
-IL2CPP_EXTERN_C  bool Enumerator_MoveNextRare_m161E856A07E0AEA087437768374E07F2D6EAA1D6_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  bool Enumerator_MoveNextRare_mFED160F1F675ED8481A334B4DA1E8F23DDE44342_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* _thisAdjusted;
+	Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*>(__this + _offset);
 	bool _returnValue;
-	_returnValue = Enumerator_MoveNextRare_m161E856A07E0AEA087437768374E07F2D6EAA1D6(_thisAdjusted, method);
+	_returnValue = Enumerator_MoveNextRare_mFED160F1F675ED8481A334B4DA1E8F23DDE44342(_thisAdjusted, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 Enumerator_get_Current_m0CB813287BEE64E274A153C2853712B075A01307_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 Enumerator_get_Current_m3C06CDAE5AD486B3C11FD6E876F7A4005692812D_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) 
 {
 	{
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_0 = __this->____current;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_0 = __this->____current;
 		return L_0;
 	}
 }
-IL2CPP_EXTERN_C  QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 Enumerator_get_Current_m0CB813287BEE64E274A153C2853712B075A01307_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 Enumerator_get_Current_m3C06CDAE5AD486B3C11FD6E876F7A4005692812D_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* _thisAdjusted;
+	Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*>(__this + _offset);
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 _returnValue;
-	_returnValue = Enumerator_get_Current_m0CB813287BEE64E274A153C2853712B075A01307_inline(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*>(__this + _offset);
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 _returnValue;
+	_returnValue = Enumerator_get_Current_m3C06CDAE5AD486B3C11FD6E876F7A4005692812D_inline(_thisAdjusted, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m12F1471EDBCC86FE85BD1682DD818F10CF58F4DF_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m9B64D73BE96F92B232BCC35D21E601C3AC98417B_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0 = __this->____index;
@@ -21653,7 +21653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerator_System_Collections_
 	}
 	{
 		int32_t L_1 = __this->____index;
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_2 = __this->____list;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_2 = __this->____list;
 		NullCheck(L_2);
 		int32_t L_3 = L_2->____size;
 		if ((!(((uint32_t)L_1) == ((uint32_t)((int32_t)il2cpp_codegen_add(L_3, 1))))))
@@ -21669,27 +21669,27 @@ IL_001d:
 
 IL_0022:
 	{
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_4;
-		L_4 = Enumerator_get_Current_m0CB813287BEE64E274A153C2853712B075A01307_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_5 = L_4;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_4;
+		L_4 = Enumerator_get_Current_m3C06CDAE5AD486B3C11FD6E876F7A4005692812D_inline(__this, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_5 = L_4;
 		RuntimeObject* L_6 = Box(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 2), &L_5);
 		return L_6;
 	}
 }
-IL2CPP_EXTERN_C  RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m12F1471EDBCC86FE85BD1682DD818F10CF58F4DF_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  RuntimeObject* Enumerator_System_Collections_IEnumerator_get_Current_m9B64D73BE96F92B232BCC35D21E601C3AC98417B_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* _thisAdjusted;
+	Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*>(__this + _offset);
+	_thisAdjusted = reinterpret_cast<Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*>(__this + _offset);
 	RuntimeObject* _returnValue;
-	_returnValue = Enumerator_System_Collections_IEnumerator_get_Current_m12F1471EDBCC86FE85BD1682DD818F10CF58F4DF(_thisAdjusted, method);
+	_returnValue = Enumerator_System_Collections_IEnumerator_get_Current_m9B64D73BE96F92B232BCC35D21E601C3AC98417B(_thisAdjusted, method);
 	return _returnValue;
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_System_Collections_IEnumerator_Reset_m300D60070AC9C67FC7F5332792B7B3FC2042CE23_gshared (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_System_Collections_IEnumerator_Reset_mD0B632E2834747B8E8B9C727D5FFACAC6958DB38_gshared (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) 
 {
 	{
 		int32_t L_0 = __this->____version;
-		List_1_t9289B5E629EDCE75C9F3154E4CC55D6074C15EDD* L_1 = __this->____list;
+		List_1_t3FCF5D416D24292F4F888136461A03EEECE4114E* L_1 = __this->____list;
 		NullCheck(L_1);
 		int32_t L_2 = L_1->____version;
 		if ((((int32_t)L_0) == ((int32_t)L_2)))
@@ -21704,17 +21704,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Enumerator_System_Collections_IEnumerato
 IL_0018:
 	{
 		__this->____index = 0;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257* L_3 = (QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257*)(&__this->____current);
-		il2cpp_codegen_initobj(L_3, sizeof(QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257));
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4* L_3 = (QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4*)(&__this->____current);
+		il2cpp_codegen_initobj(L_3, sizeof(QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4));
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void Enumerator_System_Collections_IEnumerator_Reset_m300D60070AC9C67FC7F5332792B7B3FC2042CE23_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void Enumerator_System_Collections_IEnumerator_Reset_mD0B632E2834747B8E8B9C727D5FFACAC6958DB38_AdjustorThunk (RuntimeObject* __this, const RuntimeMethod* method)
 {
-	Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* _thisAdjusted;
+	Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* _thisAdjusted;
 	int32_t _offset = 1;
-	_thisAdjusted = reinterpret_cast<Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6*>(__this + _offset);
-	Enumerator_System_Collections_IEnumerator_Reset_m300D60070AC9C67FC7F5332792B7B3FC2042CE23(_thisAdjusted, method);
+	_thisAdjusted = reinterpret_cast<Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF*>(__this + _offset);
+	Enumerator_System_Collections_IEnumerator_Reset_mD0B632E2834747B8E8B9C727D5FFACAC6958DB38(_thisAdjusted, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -34457,10 +34457,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR SerializedBinding_t72586173A0E982
 		return L_0;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 Enumerator_get_Current_m0CB813287BEE64E274A153C2853712B075A01307_gshared_inline (Enumerator_t1A1EF06FE857FEA7EAE22770E437FA4F5828C1E6* __this, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 Enumerator_get_Current_m3C06CDAE5AD486B3C11FD6E876F7A4005692812D_gshared_inline (Enumerator_t339A21FFEFE80D14CDC0BAC9FB886AE49B4792EF* __this, const RuntimeMethod* method) 
 {
 	{
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_0 = __this->____current;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_0 = __this->____current;
 		return L_0;
 	}
 }

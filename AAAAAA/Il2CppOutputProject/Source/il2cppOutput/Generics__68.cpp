@@ -141,7 +141,7 @@ struct IIteratorToIEnumeratorAdapter_1_tAC298D116F01DB94DD21DBB754EC3D5DBE9B3217
 struct IIteratorToIEnumeratorAdapter_1_tB20A9C3D8EBA75E512823A00B447FD33F9522E9F;
 struct IIteratorToIEnumeratorAdapter_1_tEB56EDEFDA1C5FE889382ADC46C03F1824014E63;
 struct IIteratorToIEnumeratorAdapter_1_t7C6F84152B9BE9FB7726850548AF14AB75B6E768;
-struct IIteratorToIEnumeratorAdapter_1_tBE049D80A9FF694826D41CAF92EC50C6A6B49EA0;
+struct IIteratorToIEnumeratorAdapter_1_tD700005738A16307EE1DE989B8230C725280E6C4;
 struct IIteratorToIEnumeratorAdapter_1_tD9F4B414852DDDCF8E7506492BC4F9F44BD0342E;
 struct IIterator_1_t40997C17B2AC3BC18DFF57ACD71591F61AC1F150;
 struct IIterator_1_tC32282F1A18453EF050BE02BF44DBCBE7011B7D0;
@@ -248,9 +248,8 @@ struct IIterator_1_t36150DAAC88ED600F9DDEC2DE5A754902921A124;
 struct IIterator_1_t2ED3A3744318029D09338C5173C674B4CFA4B3E3;
 struct IIterator_1_t3A574553071D8752F1F225B9ADD8F018AE5A86E4;
 struct IIterator_1_t9C0880E2E7BBD45A6041313293B5B47E63D4536E;
-struct IIterator_1_t47D9877DA27A680D007CE8AAFE193CE2F40F96BB;
+struct IIterator_1_t587ADC9EE2B11839E8A2E19AF3BAF91B6C8EEE6A;
 struct IIterator_1_t235D16C6552251E3CD68A2D74E792D68E64CB5F5;
-struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
 struct List_1_t41896DF347A129D13205BBFADE03DFB21E05E459;
 struct List_1_t90832B88D7207769654164CC28440CF594CC397D;
 struct List_1_tC0E7595725AFEF62394C64B77712190FBAC6C2C5;
@@ -1231,20 +1230,20 @@ struct SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289_marshaled_com
 	uint64_t ___actionId;
 	Il2CppChar* ___path;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 
 {
 	String_t* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_pinvoke
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_pinvoke
 {
 	char* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
-struct QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257_marshaled_com
+struct QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4_marshaled_com
 {
 	Il2CppChar* ___qrText;
-	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___partPrefabs;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___modelObject;
 };
 struct IIteratorToIEnumeratorAdapter_1_t76B359DAB31C2F105DE3ECF78AC82B62D1483291  : public RuntimeObject
 {
@@ -1575,12 +1574,12 @@ struct IIteratorToIEnumeratorAdapter_1_t7C6F84152B9BE9FB7726850548AF14AB75B6E768
 	bool ___hadCurrent;
 	SerializedBinding_t72586173A0E982D20E4536E71C14ACCE5F2AE289 ___current;
 };
-struct IIteratorToIEnumeratorAdapter_1_tBE049D80A9FF694826D41CAF92EC50C6A6B49EA0  : public RuntimeObject
+struct IIteratorToIEnumeratorAdapter_1_tD700005738A16307EE1DE989B8230C725280E6C4  : public RuntimeObject
 {
 	RuntimeObject* ___iterator;
 	bool ___initialized;
 	bool ___hadCurrent;
-	QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 ___current;
+	QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 ___current;
 };
 struct NOVTABLE IIterator_1_tD2929C4FA16FAD288BC3E325D505EFE218E68604 : Il2CppIInspectable
 {
@@ -26281,7 +26280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IIteratorToIEnumeratorAdapter_1__ctor_m2
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 IIteratorToIEnumeratorAdapter_1_System_Collections_Generic_IEnumerator_1_get_Current_m8037A385F7EF3F12BD3E46A42A7C2BD4C8FA7A22_gshared (IIteratorToIEnumeratorAdapter_1_tBE049D80A9FF694826D41CAF92EC50C6A6B49EA0* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 IIteratorToIEnumeratorAdapter_1_System_Collections_Generic_IEnumerator_1_get_Current_m36BF3E9CA1654822A0619746900A356A19BDB65A_gshared (IIteratorToIEnumeratorAdapter_1_tD700005738A16307EE1DE989B8230C725280E6C4* __this, const RuntimeMethod* method) 
 {
 	{
 		bool L_0 = __this->___initialized;
@@ -26312,17 +26311,17 @@ IL_0013:
 
 IL_0026:
 	{
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_4 = __this->___current;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_4 = __this->___current;
 		return L_4;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IIteratorToIEnumeratorAdapter_1_System_IDisposable_Dispose_m3AAC6AA3C897436E02BAA4A9CF4CAEBE1C5C62A4_gshared (IIteratorToIEnumeratorAdapter_1_tBE049D80A9FF694826D41CAF92EC50C6A6B49EA0* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IIteratorToIEnumeratorAdapter_1_System_IDisposable_Dispose_m2A7164F14ED70FE25E154B2468BC6251466BE8B3_gshared (IIteratorToIEnumeratorAdapter_1_tD700005738A16307EE1DE989B8230C725280E6C4* __this, const RuntimeMethod* method) 
 {
 	{
 		return;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IIteratorToIEnumeratorAdapter_1_System_Collections_IEnumerator_MoveNext_mC516D06EF5CA34FA3324C4D1DC6F7050FA216506_gshared (IIteratorToIEnumeratorAdapter_1_tBE049D80A9FF694826D41CAF92EC50C6A6B49EA0* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool IIteratorToIEnumeratorAdapter_1_System_Collections_IEnumerator_MoveNext_m2327573C15F5340F655FE0D3E95C0AC786F2F13C_gshared (IIteratorToIEnumeratorAdapter_1_tD700005738A16307EE1DE989B8230C725280E6C4* __this, const RuntimeMethod* method) 
 {
 	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
 	{
@@ -26378,12 +26377,12 @@ IL_003d_1:
 		{
 			RuntimeObject* L_7 = __this->___iterator;
 			NullCheck(L_7);
-			QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_8;
-			L_8 = InterfaceFuncInvoker0< QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 2), L_7);
+			QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_8;
+			L_8 = InterfaceFuncInvoker0< QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 >::Invoke(0, il2cpp_rgctx_data(method->klass->rgctx_data, 2), L_7);
 			__this->___current = L_8;
 			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___current))->___qrText), (void*)NULL);
 			#if IL2CPP_ENABLE_STRICT_WRITE_BARRIERS
-			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___current))->___partPrefabs), (void*)NULL);
+			Il2CppCodeGenWriteBarrier((void**)&(((&__this->___current))->___modelObject), (void*)NULL);
 			#endif
 		}
 
@@ -26433,7 +26432,7 @@ IL_0071:
 		return L_12;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IIteratorToIEnumeratorAdapter_1_System_Collections_IEnumerator_get_Current_m8BE55B374D792DE1ED67F7450B780D016F65597B_gshared (IIteratorToIEnumeratorAdapter_1_tBE049D80A9FF694826D41CAF92EC50C6A6B49EA0* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IIteratorToIEnumeratorAdapter_1_System_Collections_IEnumerator_get_Current_m3BAD50D3E7D94F82BB2044132828093FCA9A819C_gshared (IIteratorToIEnumeratorAdapter_1_tD700005738A16307EE1DE989B8230C725280E6C4* __this, const RuntimeMethod* method) 
 {
 	{
 		bool L_0 = __this->___initialized;
@@ -26464,13 +26463,13 @@ IL_0013:
 
 IL_0026:
 	{
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_4 = __this->___current;
-		QRKitMapping_t882D2B3A056F7CA408DFB771D58589469DEEE257 L_5 = L_4;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_4 = __this->___current;
+		QRCodeMapping_tF8866491BDF014586FF8F9FDD5B8F1B53A034EE4 L_5 = L_4;
 		RuntimeObject* L_6 = Box(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1), &L_5);
 		return L_6;
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IIteratorToIEnumeratorAdapter_1_System_Collections_IEnumerator_Reset_mF188EA425F7358C0FC155259D992251155682FE6_gshared (IIteratorToIEnumeratorAdapter_1_tBE049D80A9FF694826D41CAF92EC50C6A6B49EA0* __this, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IIteratorToIEnumeratorAdapter_1_System_Collections_IEnumerator_Reset_mDD6EA194A480280E7E5D644F7828EF0E3635C435_gshared (IIteratorToIEnumeratorAdapter_1_tD700005738A16307EE1DE989B8230C725280E6C4* __this, const RuntimeMethod* method) 
 {
 	{
 		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
@@ -26478,7 +26477,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IIteratorToIEnumeratorAdapter_1_System_C
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, method);
 	}
 }
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IIteratorToIEnumeratorAdapter_1__ctor_mFF54C0C1975867A9D1F09A0F39C9A13C137E5264_gshared (IIteratorToIEnumeratorAdapter_1_tBE049D80A9FF694826D41CAF92EC50C6A6B49EA0* __this, RuntimeObject* ___0_iterator, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IIteratorToIEnumeratorAdapter_1__ctor_mEF28B6DA028D4610585DC5DCF59B22BA4F4CE424_gshared (IIteratorToIEnumeratorAdapter_1_tD700005738A16307EE1DE989B8230C725280E6C4* __this, RuntimeObject* ___0_iterator, const RuntimeMethod* method) 
 {
 	{
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
