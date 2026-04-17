@@ -18,7 +18,8 @@ public class DETECTOR : MonoBehaviour
     public ModelAsset yoloModel;
     public string outputName = "output0";
 
-    [Header("UI References")]
+    [Header("References")]
+    public GroupAssembler assembler; // Reference added here
     public RawImage displayImage; 
     public RectTransform boxContainer; 
     public GameObject boxPrefab; 
@@ -41,6 +42,8 @@ public class DETECTOR : MonoBehaviour
     [Header("3D Placement Settings")]
     public LayerMask spatialMeshLayer = ~0; 
     public float maxRaycastDistance = 3.0f;
+    [Tooltip("Height in meters above the detected surface (0.1 = 10cm)")]
+    public float spawnHeightOffset = 0.1f;
 
     private Worker worker;
     private WebCamTexture webcamTexture;
@@ -85,7 +88,6 @@ public class DETECTOR : MonoBehaviour
         if (retryMenu != null) retryMenu.SetActive(false);
     }
 
-    // --- FUNCTION: RESET POSITION & SCALE ---
     public void ResetScaleAndPosition() {
         foreach (var obj in detectedInThisSession) {
             if (obj != null && originalPoses.ContainsKey(obj)) {
@@ -102,7 +104,6 @@ public class DETECTOR : MonoBehaviour
         }
     }
 
-    // --- FUNCTION: REMOVE OBJECTS ---
     public void RemoveAllObjects() {
         foreach (var obj in detectedInThisSession) {
             if (obj != null) obj.SetActive(false);
@@ -127,7 +128,7 @@ public class DETECTOR : MonoBehaviour
         while (timer < scanDuration) {
             timer += Time.deltaTime;
             if (statusText != null) 
-                statusText.text = $"Scanning YOLO... {Mathf.Ceil(scanDuration - timer)}s";
+                statusText.text = $"Scanning... {Mathf.Ceil(scanDuration - timer)}s";
 
             Graphics.Blit(webcamTexture, renderTexture);
             using Tensor<float> inputTensor = TextureConverter.ToTensor(renderTexture, inputWidth, inputHeight, 3);
@@ -145,12 +146,16 @@ public class DETECTOR : MonoBehaviour
             yield return new WaitForSeconds(0.05f);
         }
 
-        if (statusText != null) statusText.text = "Scan Complete.";
+        if (statusText != null) statusText.text = "";
         ClearBoxes();
 
-        // Release all detected objects for grabbing
         foreach (var obj in detectedInThisSession) {
             ReleaseToWorld(obj);
+        }
+
+        // NEW: Sync the Assembler so it knows where we placed the parts
+        if (assembler != null) {
+            assembler.CaptureHomeState();
         }
         
         if (retryMenu != null) retryMenu.SetActive(true);
@@ -204,26 +209,23 @@ public class DETECTOR : MonoBehaviour
         if (flipY) centerY = 1.0f - centerY;
 
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(centerX, centerY, 0));
+        Vector3 spawnPos;
 
         if (Physics.Raycast(ray, out RaycastHit hit, maxRaycastDistance, spatialMeshLayer)) {
-            obj.transform.position = hit.point;
-            obj.transform.up = hit.normal; 
-
-            // Save original pose and scale for the Reset function
-            if (!originalPoses.ContainsKey(obj)) {
-                originalPoses.Add(obj, new Pose(hit.point, obj.transform.rotation));
-                originalScales.Add(obj, obj.transform.localScale);
-                detectedInThisSession.Add(obj);
-            }
+            spawnPos = hit.point + (Vector3.up * spawnHeightOffset);
         } else {
-            Vector3 floatPos = ray.origin + (ray.direction * 1.5f);
-            obj.transform.position = floatPos;
-            if (!originalPoses.ContainsKey(obj)) {
-                originalPoses.Add(obj, new Pose(floatPos, obj.transform.rotation));
-                originalScales.Add(obj, obj.transform.localScale);
-                detectedInThisSession.Add(obj);
-            }
+            spawnPos = ray.origin + (ray.direction * 1.5f) + (Vector3.up * spawnHeightOffset);
         }
+
+        obj.transform.position = spawnPos;
+        obj.transform.rotation = Quaternion.identity;
+
+        if (!originalPoses.ContainsKey(obj)) {
+            originalPoses.Add(obj, new Pose(spawnPos, obj.transform.rotation));
+            originalScales.Add(obj, obj.transform.localScale);
+            detectedInThisSession.Add(obj);
+        }
+
         obj.SetActive(true);
     }
 
@@ -235,7 +237,6 @@ public class DETECTOR : MonoBehaviour
             rb.useGravity = false;
         }
 
-        // Standard MRTK reboot to ensure grabbable
         MonoBehaviour[] scripts = obj.GetComponents<MonoBehaviour>();
         foreach (var s in scripts) {
             if (s.GetType().Name.Contains("ObjectManipulator")) {
@@ -249,12 +250,16 @@ public class DETECTOR : MonoBehaviour
     }
 
     public void ClearBoxes() {
-        foreach (var b in activeBoxes) Destroy(b);
+        foreach (var b in activeBoxes) {
+            if (b != null) Destroy(b);
+        }
         activeBoxes.Clear();
     }
 
     List<Detection> ParseDetections(Tensor<float> output) {
         List<Detection> detections = new List<Detection>();
+        
+        // Sentis Tensor access: Use output[batch, channel, index]
         int numAttributes = output.shape[1]; 
         int numBoxes = output.shape[2];      
 
@@ -262,8 +267,9 @@ public class DETECTOR : MonoBehaviour
             float maxScore = 0;
             int classIdx = 0;
             for (int c = 4; c < numAttributes; c++) {
-                if (output[0, c, i] > maxScore) {
-                    maxScore = output[0, c, i];
+                float score = output[0, c, i];
+                if (score > maxScore) {
+                    maxScore = score;
                     classIdx = c - 4;
                 }
             }
@@ -272,6 +278,8 @@ public class DETECTOR : MonoBehaviour
                 detections.Add(new Detection {
                     classIndex = classIdx,
                     score = maxScore,
+                    // YOLO output is typically center_x, center_y, width, height
+                    // Normalize by input size if the model doesn't already
                     rect = new Rect(output[0, 0, i] / inputWidth, output[0, 1, i] / inputHeight, 
                                     output[0, 2, i] / inputWidth, output[0, 3, i] / inputHeight)
                 });

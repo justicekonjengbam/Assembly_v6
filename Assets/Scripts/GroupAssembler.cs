@@ -5,128 +5,83 @@ using System.Collections;
 public class GroupAssembler : MonoBehaviour
 {
     [System.Serializable]
-    public struct AssemblyGroup
-    {
+    public struct PartConfig {
+        public string partName; 
+        public GameObject part;       
+        public Transform target;     
+        public float speed; 
+        public float entryOffset; 
+        public bool matchTargetScale; 
+    }
+
+    [System.Serializable]
+    public struct AssemblyStep {
         public string stepName;
-        public GameObject[] partsInThisStep;    // Multiple parts can go here
-        public Transform[] targetsInThisStep;  // Must match the order of parts
-        public float entryOffset;               // Prevents phasing for this group
+        public List<PartConfig> partsInStep; 
     }
 
-    [Header("Sequence Configuration")]
-    public List<AssemblyGroup> assemblySteps;
+    public List<AssemblyStep> steps;
     public int currentStepIndex = 0;
+    private Dictionary<GameObject, Pose> homePoses = new Dictionary<GameObject, Pose>();
+    private Dictionary<GameObject, Vector3> homeScales = new Dictionary<GameObject, Vector3>();
+    private bool isRunning = false;
 
-    [Header("Animation Settings")]
-    public float flyDuration = 1.2f;
-
-    private Dictionary<GameObject, Pose> initialPoses = new Dictionary<GameObject, Pose>();
-
-    void Start()
-    {
-        // Save the very first positions so we can always "Reset"
-        foreach (var step in assemblySteps)
-        {
-            foreach (var part in step.partsInThisStep)
-            {
-                if (part != null && !initialPoses.ContainsKey(part))
-                    initialPoses.Add(part, new Pose(part.transform.position, part.transform.rotation));
+    public void CaptureHomeState() {
+        homePoses.Clear();
+        homeScales.Clear();
+        foreach (var s in steps) {
+            foreach (var c in s.partsInStep) {
+                if (c.part != null && !homePoses.ContainsKey(c.part)) {
+                    homePoses[c.part] = new Pose(c.part.transform.position, c.part.transform.rotation);
+                    homeScales[c.part] = c.part.transform.localScale;
+                }
             }
         }
     }
 
-    // --- FORWARD: Assemble the next group ---
-    public void AssembleNextGroup()
-    {
-        if (currentStepIndex < assemblySteps.Count)
-        {
-            StartCoroutine(AnimateGroup(assemblySteps[currentStepIndex], false));
-            currentStepIndex++;
-        }
+    public void AssembleNext() {
+        if (isRunning || currentStepIndex >= steps.Count) return;
+        StartCoroutine(MoveStep(steps[currentStepIndex], false));
+        currentStepIndex++;
     }
 
-    // --- REVERSE: Disassemble the last group ---
-    public void ReverseLastGroup()
-    {
-        if (currentStepIndex > 0)
-        {
-            currentStepIndex--;
-            StartCoroutine(AnimateGroup(assemblySteps[currentStepIndex], true));
-        }
+    public void ReverseLast() {
+        if (isRunning || currentStepIndex <= 0) return;
+        currentStepIndex--;
+        StartCoroutine(MoveStep(steps[currentStepIndex], true));
     }
 
-    // --- RESET: Teleport everything back to start ---
-    public void ResetAll()
-    {
-        StopAllCoroutines();
-        currentStepIndex = 0;
-        foreach (var kvp in initialPoses)
-        {
-            kvp.Key.transform.position = kvp.Value.position;
-            kvp.Key.transform.rotation = kvp.Value.rotation;
-            Rigidbody rb = kvp.Key.GetComponent<Rigidbody>();
-            if (rb != null) { rb.velocity = Vector3.zero; rb.isKinematic = true; }
-        }
+    private IEnumerator MoveStep(AssemblyStep step, bool rev) {
+        isRunning = true;
+        float max = 0;
+        foreach (var p in step.partsInStep) if (p.speed > max) max = p.speed;
+        foreach (var c in step.partsInStep) StartCoroutine(Animate(c, rev));
+        yield return new WaitForSeconds(max + 0.1f);
+        isRunning = false;
     }
 
-    private IEnumerator AnimateGroup(AssemblyGroup group, bool isReverse)
-    {
-        float elapsed = 0;
-        int count = group.partsInThisStep.Length;
+    private IEnumerator Animate(PartConfig c, bool rev) {
+        if (c.part == null || !homePoses.ContainsKey(c.part)) yield break;
         
-        Vector3[] startPos = new Vector3[count];
-        Quaternion[] startRot = new Quaternion[count];
-        Vector3[] endPos = new Vector3[count];
-        Quaternion[] endRot = new Quaternion[count];
-        Vector3[] entryPoints = new Vector3[count];
+        Vector3 eP = rev ? homePoses[c.part].position : c.target.position;
+        Quaternion eR = rev ? homePoses[c.part].rotation : c.target.rotation;
+        Vector3 eS = rev ? homeScales[c.part] : (c.matchTargetScale ? c.target.localScale : c.part.transform.localScale);
+        
+        Vector3 entry = c.target.position + (c.target.up * c.entryOffset);
+        float elapsed = 0;
+        Vector3 sP = c.part.transform.position;
+        Quaternion sR = c.part.transform.rotation;
+        Vector3 sS = c.part.transform.localScale;
 
-        // Setup coordinates for all parts in the group
-        for (int i = 0; i < count; i++)
-        {
-            GameObject part = group.partsInThisStep[i];
-            Transform target = group.targetsInThisStep[i];
-
-            startPos[i] = part.transform.position;
-            startRot[i] = part.transform.rotation;
-            
-            // If reversing, the end is the original scan pose. If forward, it's the target.
-            endPos[i] = isReverse ? initialPoses[part].position : target.position;
-            endRot[i] = isReverse ? initialPoses[part].rotation : target.rotation;
-
-            // Calculate "Driveway" entry point to prevent phasing
-            Vector3 direction = isReverse ? part.transform.up : target.up;
-            entryPoints[i] = (isReverse ? startPos[i] : endPos[i]) + (direction * group.entryOffset);
-
-            Rigidbody rb = part.GetComponent<Rigidbody>();
-            if (rb != null) rb.isKinematic = true;
-        }
-
-        // STAGE 1: Fly to entry points (Parking alignment)
-        while (elapsed < flyDuration * 0.6f)
-        {
+        while (elapsed < c.speed) {
             elapsed += Time.deltaTime;
-            float t = Mathf.SmoothStep(0, 1, elapsed / (flyDuration * 0.6f));
-
-            for (int i = 0; i < count; i++)
-            {
-                group.partsInThisStep[i].transform.position = Vector3.Lerp(startPos[i], entryPoints[i], t);
-                group.partsInThisStep[i].transform.rotation = Quaternion.Lerp(startRot[i], endRot[i], t);
-            }
+            float t = Mathf.SmoothStep(0, 1, elapsed / c.speed);
+            Vector3 targetPath = (elapsed < c.speed * 0.5f) ? entry : eP;
+            c.part.transform.position = Vector3.Lerp(sP, targetPath, t);
+            c.part.transform.rotation = Quaternion.Slerp(sR, eR, t);
+            c.part.transform.localScale = Vector3.Lerp(sS, eS, t);
             yield return null;
         }
-
-        // STAGE 2: Slide into final slot
-        elapsed = 0;
-        while (elapsed < flyDuration * 0.4f)
-        {
-            elapsed += Time.deltaTime;
-            float t = Mathf.SmoothStep(0, 1, elapsed / (flyDuration * 0.4f));
-
-            for (int i = 0; i < count; i++)
-            {
-                group.partsInThisStep[i].transform.position = Vector3.Lerp(entryPoints[i], endPos[i], t);
-            }
-            yield return null;
-        }
+        c.part.transform.position = eP;
     }
 }

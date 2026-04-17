@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: MRTK_Backplate_13mm_Gradient Variant 7 Variant
   m_Shader: {fileID: 4800000, guid: bf1548464ae044849a0ce555785ea4a2, type: 3}
-  m_Parent: {fileID: 2100000, guid: 18fc0221911065941becdfae3fc9529a, type: 2}
+  m_Parent: {fileID: 2100000, guid: c264a4f8bb2106646be4ff0362660278, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _EDGE_ONLY_
@@ -18,8 +18,11 @@ Material:
   - _SMOOTH_EDGES_
   m_InvalidKeywords:
   - _ABSOLUTE_SIZES__ON
+  - _BORDER_LIGHT_REPLACES_ALBEDO
   - _GRADIENT_DISABLED_
   - _REFLECTED__ON
+  - _ROUND_CORNERS
+  - _USE_WORLD_SCALE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
